@@ -1,0 +1,96 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h1>All Roles</h1>
+
+
+
+<div class="row">
+    <div class="agile-tables">
+        <div class="col-md-8">
+
+        </div>
+
+
+        <div class="col-md-4">
+            <a asp-area="Admin" asp-controller="Roles" asp-action="Create" class="btn btn-primary"><i class="fa fa-plus"></i>  Create Role</a>
+        </div>
+
+        @if (Model.Any())
+        {
+           
+                <div class="card mb-3">
+                    <div class="card-header">
+                        @*Role Id : @role.Id*@
+                    </div>
+                    <div class="card-body">
+                      
+                            <table id="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Action</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var role in Model)
+                                    {
+                                        <tr>
+                                            <td>@role.Name</td>
+                                            <td>
+                                                <form asp-action="Deleterole" asp-route-id="@role.Id" method="post">
+                                                    <a asp-controller="Roles" asp-action="Edit" asp-route-id="@role.Id" class="btn btn-primary">Edit</a>
+                                                    <span style="display:none" id="confirmDeleteSpan_@role.Id">
+                                                        <span>Are you sure you want to delete the role</span>
+                                                        <button type="submit" class="btn btn-danger">
+                                                            Yes
+                                                        </button>
+                                                        <a href="#" class="btn btn-primary" onclick="confirmDelete('@role.Id', false)">No</a>
+                                                    </span>
+                                                    <span id="deleteSpan_@role.Id">
+                                                        <a class="btn btn-danger"
+                                                           onclick="confirmDelete('@role.Id', true)">
+                                                            <i class="fa fa-trash"></i>Delete
+                                                        </a>
+                                                    </span>
+                                                </form>
+                                            </td>
+                                           
+
+                                        </tr> }
+</table>
+</div>
+                    <div class="card-footer">
+
+                        
+                    </div>
+                </div>
+            
+        }
+        else
+        {
+
+            <div class="card">
+                <div class="card-header">
+                    No roles created yet
+                </div>
+                <div class="card-body">
+                    <h5>
+                        Use the button below to create a role
+                    </h5>
+                    <a class="btn btn-primary" style="width:auto"> Create Role</a>
+                </div>
+
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/App/CustomScript.js"></script>
+}

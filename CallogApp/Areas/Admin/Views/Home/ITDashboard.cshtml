@@ -1,0 +1,140 @@
+﻿@{
+    ViewData["Title"] = "IT Dashboard";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a> <i class="fa fa-angle-right"></i></li>
+</ol>
+<!--four-grids here-->
+<div class="four-grids">
+    <div class="col-md-3 four-grid">
+        <div class="four-agileits">
+            <div class="icon">
+                <i class="glyphicon glyphicon-list" aria-hidden="true"></i>
+            </div>
+            <div class="four-text">
+
+                <h3>All Pending Requests</h3>
+                <h4>@ViewBag.pendingRequestsCount</h4>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-md-3 four-grid">
+        <div class="four-w3ls">
+            <div class="icon">
+                <i class="glyphicon glyphicon-link" aria-hidden="true"></i>
+            </div>
+            <div class="four-text">
+                <h3> Assigned Pending Requests</h3>
+                <h4> @ViewBag.myPendingRequest</h4>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-3 four-grid">
+        <div class="four-wthree">
+            <div class="icon">
+                <i class="glyphicon glyphicon-time" aria-hidden="true"></i>
+            </div>
+            <div class="four-text">
+                <h3>Today Requests</h3>
+                <h4>@ViewBag.todayRequests</h4>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <table class="columns">
+        <tr>
+            <td><div id="piechart_3d" style="border: 1px solid #ccc"></div></td>
+       
+        </tr>
+    </table>
+</div>
+@section Scripts{
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+
+        // Load Charts and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Draw the pie chart for Sarah's pizza when Charts is loaded.
+      google.charts.setOnLoadCallback(drawSarahChart);
+
+      // Draw the pie chart for the Anthony's pizza when Charts is loaded.
+      google.charts.setOnLoadCallback(drawAnthonyChart);
+
+      // Callback that draws the pie chart for Sarah's pizza.
+      function drawSarahChart() {
+
+        // Create the data table for Sarah's pizza.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Requests');
+        data.addRows([
+
+                ['Network', @ViewBag.networkIssueCount],
+                ['Printer', @ViewBag.printerIssueCount],
+                ['Mail', @ViewBag.mailCount],
+                ['Data Processing', @ViewBag.dataProcessingCount],
+                ['Computer', @ViewBag.dataSystemCount],
+                ['Procurement', @ViewBag.dataProcurementCount],
+                ['Other', @ViewBag.dataOtherCount],
+                ['Software', @ViewBag.softwareCount],
+                ['KR Machine', @ViewBag.dataKRCount],
+                ['Logs', @ViewBag.logsCount],
+
+        ]);
+
+        // Set options for Sarah's pie chart.
+        var options = {title:'Today Requests in Pie Chart',
+                       width:900,
+                       height:400};
+
+        // Instantiate and draw the chart for Sarah's pizza.
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+
+      @*// Callback that draws the pie chart for Anthony's pizza.
+      function drawAnthonyChart() {
+
+        // Create the data table for Anthony's pizza.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Requets');
+        data.addRows([
+
+                ['Network', @ViewBag.networkIssueCount],
+                ['Printer', @ViewBag.printerIssueCount],
+                ['Mail', @ViewBag.mailCount],
+                ['Data Processing', @ViewBag.dataProcessingCount],
+                ['Computer', @ViewBag.dataSystemCount],
+                ['Procurement', @ViewBag.dataProcurementCount],
+                ['Other', @ViewBag.dataOtherCount]
+        ]);
+
+        // Set options for Anthony's pie chart.
+        var options = {title:'Today Requests in Line Chart',
+                       width:510,
+                       height:300};
+
+        // Instantiate and draw the chart for Anthony's pizza.
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        chart.draw(data, options);
+      }*@
+
+
+    </script>
+
+
+
+
+}

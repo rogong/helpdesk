@@ -1,0 +1,60 @@
+﻿<!--header start here-->
+<div class="header-main">
+    <div class="logo-w3-agile">
+        <h1><a asp-area="admin" asp-controller="index" asp-action="Dashboard">Dashboard</a></h1>
+    </div>
+    <div class="w3layouts-left">
+
+        <!--search-box-->
+        <div class="w3-search-box">
+            <form action="#" method="post">
+                <input type="text" placeholder="Search..." required="">
+                <input type="submit" value="">
+            </form>
+
+        </div><!--//end-search-box-->
+        <div class="clearfix"> </div>
+    </div>
+    <div class="w3layouts-right">
+       
+        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                @await Component.InvokeAsync("UserName")
+            </a>   <button type="submit" class="nav-link btn btn-link text-white">Logout</button>
+        </form>
+        <!--notification menu end -->
+
+        <div class="clearfix"> </div>
+    </div>
+    <div class="profile_details w3l">
+        <ul>
+            <li class="dropdown profile_details_drop">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <div class="profile_img">
+
+                        <div class="user-name">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+
+                                <span>@User.Identity.Name</span>
+                            }
+                        </div>
+                        <i class="fa fa-angle-down"></i>
+                        <i class="fa fa-angle-up"></i>
+                        <div class="clearfix"></div>
+                        
+                    </div>
+                </a>
+                <ul class="dropdown-menu drp-mnu">
+        
+        <li> 
+        <a  asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Profile</a> </li>
+                    
+        <li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li>   
+            
+        </ul>
+    </div>
+
+    <div class="clearfix"> </div>
+</div>
+<!--heder end here-->

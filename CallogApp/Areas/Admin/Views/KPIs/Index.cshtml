@@ -1,0 +1,601 @@
+﻿@model CallogApp.Models.Request
+@section Styles{
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.1/css/buttons.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="https://datatables.net/media/css/site.css?_=6239e0117a45e8466919cf6525f8d1f2" />
+    <link rel="stylesheet" href="~/css/daterangepicker.css" />
+ 
+    <link href="~/css/progress circle/style.css" rel="stylesheet" />
+    <style>
+        .limited {
+            white-space: nowrap;
+            witableh: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        td.details-control {
+            background: url('/images/details_open.png') no-repeat center center;
+            cursor: pointer;
+        }
+
+        tr.details td.details-control {
+            background: url('/images/details_close.png') no-repeat center center;
+        }
+
+        div.polaroid {
+            padding: 5px 5px 5px 5px;
+            border: 1px solid #BFBFBF;
+            background-color: white;
+            box-shadow: 10px 10px 10px 10px #aaaaaa;
+        }
+
+        .largeSize {
+            font-size: xx-large;
+            font-weight: 900
+        }
+    </style>
+
+}
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="row">
+</div>
+<div class="row">
+
+    <div class="col-md-8">
+
+        <div class="form-horizontal">
+
+            <div class="form-group" style="width:70%;">
+                <label class="control-label col-sm-2"> Date:</label>
+
+                <div id="daterange" class="col-sm-8" style="background: #fff; cursor: pointer;
+            padding: 5px 10px; border: 1px solid #ccc;">
+                    <i class="fa fa-calendar"></i>&nbsp;
+                    <span></span> <i class="fa fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="form-group" style="width:70%;">
+                <label class="control-label col-sm-2">Staff:</label>
+                <div class="col-sm-8" style="padding-left: 0px; padding-right: 0px;">
+                    <select asp-for="ITStaffId" id="ITStaffId"
+                            class="form-control select2" asp-items="ViewBag.ITStaffId"></select>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" id="submitSearch" onclick="submitSearch()" class="btn btn-primary">Find</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="row">
+    <div class="unit w-2-3 polaroid">
+        <div class="hero-callout">
+            <div id="example_wrapper" class="dataTables_wrapper">
+                <table id="request" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th></th>
+
+                            <th>Status</th>
+                            <th>Received At </th>
+                            <th>Response At </th>
+                            <th>Response Time </th>
+                            <th>Resolved Time </th>
+                            <th>Subject </th>
+
+                            <th>Action</th>
+
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="dv1">
+        <button class="bt btn-outline-primary  m-10" id="dv1">
+
+            <img src="~/images/total-icon.png" width="50" height="50" />
+            No Of Requests:
+            <h4 id="totalRequests" class="largeSize" style="color:#000000"> </h4>
+        </button>
+
+        <button class="bt btn-outline-danger m-10" id="dv2" style="color:red">
+
+            <img src="~/images/pending.png" width="50" height="50" />
+            Pending:  <h4 id="totalPending" class="largeSize"> </h4>
+        </button>
+        <button class="bt btn-outline-success m-10" id="dv3" style="color:green">
+            <img src="~/images/total-icon.png" width="50" height="50" />
+            Resolved: <h4 id="totalResolved" class="largeSize"> </h4>
+        </button>
+        <button class="bt btn-outline-info m-10" id="dv2" style="color:red">
+            <img src="~/images/response-time.png" width="50" height="50" />
+            Avg. Resp. Time:
+            <h4 id="avgResponseTimeHour" class="largeSize" hidden> </h4>
+            <h4 id="avgResponseTime" class="largeSize"> </h4>
+        </button>
+
+        <button class="bt btn-outline-info m-10" id="dv2" style="color:red">
+
+            <img src="~/images/responseTime-icon.png" width="50" height="50" />
+            Avg. Resol. Time:
+            <h4 id="avgResolutionTimeHour" class="largeSize" hidden> </h4>
+            <h4 id="avgResolutionTime" class="largeSize"> </h4>
+        </button>
+
+        @*<button class="btn btn-outline-danger m-10" id="dv6">
+
+            <div class="circle-wrap">
+                <div class="circle">
+
+                    <div class="inside-circle">  </div>
+                </div>
+            </div>
+
+        </button>*@
+
+
+        @*<div class="agileinfo-grap">
+            <div class="agileits-box">
+                <table class="columns">
+                    <tr>
+                        <td><div id="piechart_div" style="border: 1px solid #ccc"></div></td>
+                        <td><div id="barchart_div" style="border: 1px solid #ccc"></div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>*@
+
+    </div>
+</div>
+
+    @section Scripts{
+
+
+        <script src="~/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.html5.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.print.min.js"></script>
+       
+           <script src="~/js/App/loader.js"></script>
+
+        <script type="text/javascript">
+
+            function refreshPage(x) {
+                location.reload(x = false);
+            }
+
+            function format(d) {
+
+                return d.message;
+
+            }
+
+            $('#dv').hide();
+            $(document).ready(function () {
+
+
+
+
+                var table = $("#request").DataTable({
+
+                    select: true,
+                    dom: 'Bfrtip',
+                    "columns": [
+                        {
+                            "class": "details-control",
+                            "orderable": false,
+                            "data": null,
+                            "defaultContent": '<i class = "glyphicon glyphicon-plus-sign bg-success text-white"> </i>',
+                        },
+
+                        { "data": "status" },
+                        { "data": "dateCreated" },
+                        { "data": "respondedDate" },
+                        { "data": "responseDate" },
+                        { "data": "resolvedDate" },
+                        { "data": "subject" },
+
+                        {
+                            "data": "id", "render": function (data) {
+                                return `<div class="text-center">
+             <a href="/Admin/Requests/Edit/${data}" class='style='cursor:pointer;'><i class='fa fa-edit text-success'></i>Edit</a>
+                                  </div>`;
+                            }
+                        }
+                    ]
+                });
+
+                var detailRows = [];
+
+                $('#request tbody').on('click', 'tr td.details-control', function () {
+                    var tr = $(this).closest('tr');
+                    var row = table.row(tr);
+                    var idx = $.inArray(tr.attr('id'), detailRows);
+
+                    if (row.child.isShown()) {
+                        tr.removeClass('details');
+                        row.child.hide();
+
+                        // Remove from the 'open' array
+                        detailRows.splice(idx, 1);
+                    }
+                    else {
+                        tr.addClass('details');
+                        row.child(format(row.data())).show();
+
+                        // Add to the 'open' array
+                        if (idx === -1) {
+                            detailRows.push(tr.attr('id'));
+                        }
+                    }
+                });
+
+                // On each draw, loop over the `detailRows` array and show any child rows
+                table.on('draw', function () {
+                    $.each(detailRows, function (i, id) {
+                        $('#' + id + ' td.details-control').trigger('click');
+                    });
+                });
+            });
+
+
+
+            function RefreshTable(tableId, theData) {
+                table = $(tableId).dataTable();
+                oSettings = table.fnSettings();
+                table.fnClearTable(this);
+                for (var x = 0; x < theData.length; x++) {
+                    table.oApi._fnAddData(oSettings, theData[x]);
+                }
+                oSettings.aiDisplay = oSettings.aiDisplayMaster.slice();
+                table.fnDraw();
+                // console.log('from refresh' + theData);
+
+            }
+
+            function submitSearch() {
+
+                if ($('#ITStaffId').val() == "") {
+                    swal("Select a member of satff");
+                    return;
+                }
+
+                var ITStaffId = $("#ITStaffId").val();
+                var start = $('#daterange').data('daterangepicker').startDate;
+                var end = $('#daterange').data('daterangepicker').endDate;
+
+                var thePost = "?startDate=" + start.format('YYYY-MM-DD') + "&endDate=" + end.format('YYYY-MM-DD') + "&ITStaffId=" + ITStaffId;
+
+                $.ajax({
+                    "processing": true,
+                    "serverSide": true,
+                    "url": "/api/kpi/GetAllRequestByUser" + thePost,
+                    "type": "GET",
+                    "datatype": "json",
+
+                    success: function (data) {
+                        //Refresh the table
+                        RefreshTable("#request", data);
+
+
+
+
+                        //open the dv
+                        $('#dv').show();
+
+
+                        $.ajax({
+
+                            "url": "/api/kpi/TotalRequestsPendingByUser" + thePost,
+                            "type": "GET",
+                            "datatype": "json",
+
+                            success: function (data) {
+
+                                var x = $('#totalPending').text();
+
+                                if (x === ' ') { $('#totalPending').append(data) }
+
+
+
+                            }, error: function (xhr, ajaxOptions, thrownError) {
+                                swal(ajaxOptions, xhr.responseText);
+                            }
+
+                        });
+
+
+
+                        $.ajax({
+
+                            "url": "/api/kpi/TotalRequestsByUser" + thePost,
+                            "type": "GET",
+                            "datatype": "json",
+
+                            success: function (data) {
+
+                                var x = $('#totalRequests').text();
+
+                                if (x === ' ') { $('#totalRequests').append(data); }
+
+                            }, error: function (xhr, ajaxOptions, thrownError) {
+                                swal(ajaxOptions, xhr.responseText);
+                            }
+
+                        });
+
+                        $.ajax({
+
+                            "url": "/api/kpi/TotalRequestsResolvedByUser" + thePost,
+                            "type": "GET",
+                            "datatype": "json",
+
+                            success: function (data) {
+
+                                var x = $('#totalResolved').text();
+
+                                if (x === ' ') { $('#totalResolved').append(data); }
+
+                            }, error: function (xhr, ajaxOptions, thrownError) {
+                                swal(ajaxOptions, xhr.responseText);
+                            }
+
+                        });
+
+                        $.ajax({
+
+                            "url": "/api/kpi/AverageResponseTimeByUser" + thePost,
+                            "type": "GET",
+                            "datatype": "json",
+
+                            success: function (data) {
+
+                                var x = $('#avgResponseTime').text();
+
+                                if (x === ' ') { $('#avgResponseTime').append(data + 'min(s)'); }
+
+                            }, error: function (xhr, ajaxOptions, thrownError) {
+                                swal('No records found.');
+                            }
+
+                        });
+
+                        $.ajax({
+
+                            "url": "/api/kpi/AverageResponseTimeHour" + thePost,
+                            "type": "GET",
+                            "datatype": "json",
+
+                            success: function (data) {
+                                // $('#avgResponseTimeHour').empty();
+                                var x = $('#avgResponseTimeHour').text();
+
+                                if (x === ' ') { $('#avgResponseTimeHour').append(data + 'hr(s)'); }
+
+                            }, error: function (xhr, ajaxOptions, thrownError) {
+                                swal('No records found.');
+                            }
+
+                        });
+
+                        $.ajax({
+
+                            "url": "/api/kpi/AverageResolutionTimeByUser" + thePost,
+                            "type": "GET",
+                            "datatype": "json",
+
+                            success: function (data) {
+                                // $('#avgResolutionTime').empty();
+                                var x = $('#avgResolutionTime').text();
+
+                                if (x === ' ') {
+                                    $('#avgResolutionTime').append(data + 'min(s)');
+
+
+                                    xInt = parseInt(data);
+
+
+
+                                    if (xInt < 60) {
+                                        { $('.inside-circle').append('<h4 style="color:#000000">80% </h4>'); }
+                                    }
+                                    else if (xInt > 60 && xInt < 120) {
+                                        { $('.inside-circle').append('<h4 style="color:#000000">60% </h4'); }
+                                    }
+                                    ;
+                                }
+
+                            }, error: function (xhr, ajaxOptions, thrownError) {
+                                swal('No records found.');
+                            }
+
+                        });
+
+                        $.ajax({
+
+                            "url": "/api/kpi/AverageResolutionTimeHour" + thePost,
+                            "type": "GET",
+                            "datatype": "json",
+
+                            success: function (data) {
+                                // $('#avgResolutionTimeHour').empty();
+                                var x = $('#avgResolutionTimeHour').text();
+
+                                if (x === ' ') {
+                                    $('#avgResolutionTimeHour').append(data + 'hr(s)')
+
+
+                                    //xInt = parseInt(data);
+
+
+
+                                    //if (xInt < 60) {
+                                    //    { $('.inside-circle').append('<h4 style="color:#000000">80% </h4>'); }
+                                    //}
+                                    //else if (xInt > 60 && xInt < 120) {
+                                    //    { $('.inside-circle').append('<h4 style="color:#000000">60% </h4'); }
+                                    //};
+                                }
+
+                            }, error: function (xhr, ajaxOptions, thrownError) {
+                                swal('No records found.');
+                            }
+
+                        });
+
+                 $.ajax({
+                    type: 'GET',
+                    dataType: "json",
+                    //contentType: "application/json",
+                    url: '/api/kpi/GetAllRequestByUser' + thePost,
+                     success: function (result) {
+
+                      google.charts.load('current', {
+                        'packages': ['corechart']
+                    });
+                    google.charts.setOnLoadCallback(function () {
+                        drawChart(result);
+                    });
+                    }
+                });
+
+
+
+                    }, error: function (xhr, ajaxOptions, thrownError) {
+                        swal(ajaxOptions, xhr.responseText);
+                    }
+
+                });
+
+
+
+
+            }
+
+
+
+
+            $(function () {
+
+                var start = moment().subtract(29, 'days');
+                var end = moment();
+
+                function cb(start, end) {
+                    $('#daterange span').html(start.format('YYYY-MM-DD') + ' / ' + end.format('YYYY-MM-DD'));
+                }
+
+                $('#daterange').daterangepicker({
+                    startDate: start,
+                    endDate: end,
+                    ranges: {
+                        'Today': [moment(), moment()],
+                        'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                        'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+                        'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                        'This Month': [moment().startOf('month'), moment().endOf('month')],
+                        'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+                    }
+                }, cb);
+
+                cb(start, end);
+
+            });
+
+
+
+        </script>
+
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+
+        <script>
+
+
+            $(document).ready(function () {
+                $('#example')
+                    .addClass('nowrap')
+                    .dataTable({
+                        responsive: true,
+                        columnDefs: [
+                            { targets: [-1, -3], className: 'dt-body-right' }
+                        ]
+                    });
+            });
+
+
+        </script>
+
+
+
+        @*<script>
+                function drawChart(result) {
+
+                    var data = new google.visualization.DataTable();
+                    data.addColumn('string', 'responseDate');
+                    data.addColumn('number', 'id');
+                    var dataArray = [];
+                    $.each(result, function (i, obj) {
+                        dataArray.push([obj.issue, obj.id]);
+                    });
+
+                    data.addRows(dataArray);
+
+                    var piechart_options = {
+                        title: 'Pie Chart: Received Date and Resonse Date',
+                        width: 400,
+                        height: 300
+                    };
+                    var piechart = new google.visualization.PieChart(document
+                        .getElementById('piechart_div'));
+                    piechart.draw(data, piechart_options);
+
+                    var barchart_options = {
+                        title: 'Barchart: Received Date and Resonse Datet',
+                        width: 400,
+                        height: 300,
+                        legend: 'none'
+                    };
+                    var barchart = new google.visualization.BarChart(document
+                        .getElementById('barchart_div'));
+                    barchart.draw(data, barchart_options);
+                }
+
+
+        </script>*@
+    }

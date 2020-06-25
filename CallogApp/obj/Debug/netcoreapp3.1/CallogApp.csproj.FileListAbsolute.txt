@@ -1,0 +1,1211 @@
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.StaticWebAssets.xml
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.exe
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.deps.json
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.runtimeconfig.json
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.runtimeconfig.dev.json
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.pdb
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.Views.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.Views.pdb
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csprojAssemblyReference.cache
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\staticwebassets\CallogApp.StaticWebAssets.Manifest.cache
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\staticwebassets\CallogApp.StaticWebAssets.xml
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorAssemblyInfo.cache
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorAssemblyInfo.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.AssemblyInfoInputs.cache
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.AssemblyInfo.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.TagHelpers.input.cache
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.TagHelpers.output.cache
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorCoreGenerate.cache
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorTargetAssemblyInfo.cache
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorTargetAssemblyInfo.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.Views.pdb
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csproj.CopyComplete
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.pdb
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminFooterPartial.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminHeaderPartial.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminSideBar.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Create.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Delete.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Details.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Edit.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Index.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Create.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Delete.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Details.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Edit.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Index.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Create.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Delete.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Details.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Edit.cshtml.g.cs
+C:\Users\I.T\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.StaticWebAssets.xml
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.exe
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.deps.json
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.runtimeconfig.json
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.runtimeconfig.dev.json
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.pdb
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.Views.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.Views.pdb
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\staticwebassets\CallogApp.StaticWebAssets.Manifest.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\staticwebassets\CallogApp.StaticWebAssets.xml
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorAssemblyInfo.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorAssemblyInfo.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.AssemblyInfoInputs.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.AssemblyInfo.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.TagHelpers.input.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.TagHelpers.output.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorCoreGenerate.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminFooterPartial.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminHeaderPartial.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminSideBar.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorTargetAssemblyInfo.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorTargetAssemblyInfo.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.Views.pdb
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csproj.CopyComplete
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.pdb
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\_ViewImports.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\_ViewStart.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestTypes\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestTypes\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestTypes\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestTypes\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestTypes\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserName\Default.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\View.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Dashboard.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_StatusMessage.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Approval\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Currencies\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Currencies\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Currencies\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Currencies\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Currencies\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\PaymentModes\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\PaymentModes\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\PaymentModes\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\PaymentModes\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\PaymentModes\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Approval\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovalLevels\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovalLevels\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovalLevels\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovalLevels\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovalLevels\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovedStatus\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovedStatus\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovedStatus\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovedStatus\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ApprovedStatus\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requesters\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requesters\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requesters\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requesters\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requesters\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Approvals\Create.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Approvals\Delete.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Approvals\Details.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Approvals\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Approvals\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Approval\Edit.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Approval\checkboxType.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.genruntimeconfig.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csproj.CoreCompileInputs.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestReports\Index.cshtml.g.cs
+C:\Users\Oluseyi Peter\source\repos\CallogApp\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csprojAssemblyReference.cache
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.StaticWebAssets.xml
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.exe
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.deps.json
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.runtimeconfig.json
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.runtimeconfig.dev.json
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.pdb
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.Views.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.Views.pdb
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\staticwebassets\CallogApp.StaticWebAssets.Manifest.cache
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\staticwebassets\CallogApp.StaticWebAssets.xml
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorAssemblyInfo.cache
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorAssemblyInfo.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.AssemblyInfoInputs.cache
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.AssemblyInfo.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.TagHelpers.input.cache
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.TagHelpers.output.cache
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorCoreGenerate.cache
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\View.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestReports\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_StatusMessage.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Dashboard.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\_ViewImports.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\_ViewStart.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserName\Default.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminHeaderPartial.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminSideBar.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorTargetAssemblyInfo.cache
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorTargetAssemblyInfo.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.Views.pdb
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csproj.CopyComplete
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.dll
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.pdb
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\EditUsersInRole.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\EditUser.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ListUser.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ManageUserRoles.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Account\AccessDenied.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AccessDenied.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\AccessDenied.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ChangePassword.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ChangePasswordConfirmation.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Account\ChangePassword.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Account\ChangePasswordConfirmation.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ChangeUserPassword.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\appsettings.json
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.StaticWebAssets.xml
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.exe
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.deps.json
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.runtimeconfig.json
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.runtimeconfig.dev.json
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.pdb
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.Views.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\CallogApp.Views.pdb
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\projects2\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csproj.CoreCompileInputs.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.MvcApplicationPartsAssemblyInfo.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.MvcApplicationPartsAssemblyInfo.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorAssemblyInfo.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorAssemblyInfo.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.AssemblyInfoInputs.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.AssemblyInfo.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.TagHelpers.input.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.TagHelpers.output.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorCoreGenerate.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\AccessDenied.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ChangePassword.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ChangePasswordConfirmation.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ChangeUserPassword.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Create.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Delete.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Details.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Edit.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Calls\View.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Create.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Delete.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Details.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Edit.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Departments\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Create.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Delete.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Details.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Edit.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Devices\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Create.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Delete.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Details.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Edit.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Issues\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Create.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Delete.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Details.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Edit.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ITStaffs\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestReports\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Create.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Delete.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Details.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Edit.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\Create.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\Edit.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\EditUsersInRole.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Roles\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Create.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Delete.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Details.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Edit.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Status\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\EditUser.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ListUser.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\ManageUserRoles.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_StatusMessage.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Account\AccessDenied.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Account\ChangePassword.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Account\ChangePasswordConfirmation.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Dashboard.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\Home\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Create.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Delete.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Details.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Edit.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\_ViewImports.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\_ViewStart.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AccessDenied.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserName\Default.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminHeaderPartial.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminSideBar.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorTargetAssemblyInfo.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.RazorTargetAssemblyInfo.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.Views.pdb
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csproj.CopyComplete
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\staticwebassets\CallogApp.StaticWebAssets.Manifest.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\staticwebassets\CallogApp.StaticWebAssets.xml
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.dll
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.pdb
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.genruntimeconfig.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csprojAssemblyReference.cache
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestReports\Category.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestReports\ReportWithoutDepartment.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestReports\Category.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestReports\ReportWithoutDepartment.cshtml.g.cs
+C:\projects2\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\AssignRequest\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\AssignRequest\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\MyAssignedTask.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User_\EditUser.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User_\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User_\ListUser.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User_\ManageUserRoles.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\KPIs\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Levels\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Levels\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Levels\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Levels\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Levels\Index.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Requests\PendingRequest.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\ITDashboard.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\Success.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\User\Views\UserRequest\PendingRequest.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\PieChart.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\AspNetCore.Api.Partner.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Twitter.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.AzureAppServicesIntegration.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.DataProtection.AzureStorage.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Owin.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.Edm.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Data.OData.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Redis.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.SqlServer.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.AzureAppServices.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.BrowserLink.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_green.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\StackExchange.Redis.StrongName.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\System.Spatial.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.Data.Edm.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.Data.Edm.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.Edm.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.Data.Edm.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.Edm.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.Edm.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.Edm.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\Microsoft.Data.OData.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\Microsoft.Data.OData.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.OData.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\Microsoft.Data.OData.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.OData.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.OData.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.OData.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\de\System.Spatial.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\es\System.Spatial.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\fr\System.Spatial.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\it\System.Spatial.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ja\System.Spatial.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ko\System.Spatial.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\ru\System.Spatial.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hans\System.Spatial.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\zh-Hant\System.Spatial.resources.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libuv.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libuv.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libuv.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libuv.so
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\libuv.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libuv.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libuv.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\e_sqlite3.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\e_sqlite3.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Projects\HelpDesk\CallogApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\RequestReports\PieChartReport.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\CallogApp.csprojAssemblyReference.cache
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tests\Create.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tests\Delete.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tests\Details.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tests\Edit.cshtml.g.cs
+C:\Projects\HelpDesk\CallogApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tests\Index.cshtml.g.cs

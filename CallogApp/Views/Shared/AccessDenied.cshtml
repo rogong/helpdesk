@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Access Denied";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+
+    <div class="col-md-4"></div>
+
+    <div class="col-md-4">
+
+        <header>
+            <h1 class="text-danger">@ViewData["Title"]</h1>
+            <p class="text-danger">You do not have access to this resource.</p>
+        </header>
+
+
+        <a asp-action="index" asp-controller="home">
+            Click here to navigation to the home page
+        </a>
+
+    </div>
+
+    <div class="col-md-4"></div>
+</div>

@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "NotFound";
+
+
+}
+
+
+<div class="row">
+
+    <div class="col-md-4"></div>
+
+    <div class="col-md-4 text-danger">
+
+        <h2>@ViewBag.ErrorMessage</h2>
+
+        <a asp-action="index" asp-controller="home">
+            Click here to navigation to the home page
+        </a>
+
+</div>
+
+    <div class="col-md-4"></div>
+</div>

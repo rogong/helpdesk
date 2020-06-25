@@ -1,0 +1,388 @@
+﻿@model CallogApp.Models.Request
+
+@section Styles{
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <style>
+        .limited {
+            white-space: nowrap;
+            witableh: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        td.details-control {
+            background: url('/images/details_open.png') no-repeat center center;
+            cursor: pointer;
+        }
+
+        tr.details td.details-control {
+            background: url('/images/details_close.png') no-repeat center center;
+        }
+
+        div.polaroid {
+            padding: 5px 5px 5px 5px;
+            border: 1px solid #BFBFBF;
+            background-color: white;
+            box-shadow: 10px 10px 10px 10px #aaaaaa;
+        }
+    </style>
+
+}
+@{
+    ViewData["Title"] = "Pie Chart Report";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <h4>Pie Report</h4>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<div class="row">
+
+ 
+
+        <div class="form-horizontal">
+
+
+
+
+            <div class="form-group" style="width:70%;">
+                <label class="control-label col-sm-2"> Date Range:</label>
+
+                <div id="daterange" class="col-sm-8" style="background: #fff; cursor: pointer;
+            padding: 5px 10px; border: 1px solid #ccc;">
+                    <i class="fa fa-calendar"></i>&nbsp;
+                    <span></span> <i class="fa fa-caret-down"></i>
+                </div>
+
+
+
+                <div class="control-label col-sm-2" style="background: #fff;
+            padding: 5px 10px;">
+                    <button type="button" onclick="submitSearch()" class="btn btn-primary">Find</button>
+                </div>
+            </div>
+
+
+        </div>
+
+   
+
+        <table class="columns">
+            <tr>
+                <td><div id="piechart_3d" style="border: 1px solid #ccc"></div></td>
+                @*<td><div id="curve_chart" style="border: 1px solid #ccc;"></div></td>*@
+            </tr>
+        </table>
+
+  
+
+</div>
+
+
+
+
+
+@section Scripts{
+
+
+
+    <script type="text/javascript">
+
+        var network, printer, mail, dataprocessing, datasystem,other, procurement,krmachine,software,logs;
+
+
+        function submitSearch() {
+
+
+            var start = $('#daterange').data('daterangepicker').startDate;
+            var end = $('#daterange').data('daterangepicker').endDate;
+
+            var thePost = "?startDate=" + start.format('YYYY-MM-DD') + "&endDate=" + end.format('YYYY-MM-DD');
+
+            $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/network" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+
+                    network = parseInt(data);
+                    
+
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+            });
+
+
+            $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/Printer" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+                    printer = parseInt(data);
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+            });
+
+
+            $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/Mail" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+                   mail = parseInt(data)
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+            });
+
+
+
+            $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/dataprocessing" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+                    dataprocessing = parseInt(data);
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+            });
+
+
+            $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/datasystem" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+                    datasystem = parseInt(data)
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+            });
+
+            $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/other" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+                    other = parseInt(data)
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+            });
+
+            $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/procurement" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+                    procurement = parseInt(data)
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+            });
+
+             $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/software" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+                    software = parseInt(data)
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+             });
+
+
+            $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/logs" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+                    logs = parseInt(data)
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+            });
+
+
+            $.ajax({
+                "processing": true,
+                "serverSide": true,
+                "url": "/api/piechartreport/krmachine" + thePost,
+                "type": "GET",
+                "datatype": "json",
+
+                success: function (data) {
+                    krmachine = parseInt(data)
+                }, error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(xhr.responseText);
+                }
+
+            });
+
+     
+
+               // Load Charts and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Draw the pie chart for Sarah's pizza when Charts is loaded.
+      google.charts.setOnLoadCallback(drawSarahChart);
+
+      // Draw the pie chart for the Anthony's pizza when Charts is loaded.
+      google.charts.setOnLoadCallback(drawAnthonyChart);
+
+      // Callback that draws the pie chart for Sarah's pizza.
+      function drawSarahChart() {
+
+        // Create the data table for Sarah's pizza.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+          data.addColumn('number', 'Slices');
+        data.addRows([
+
+                
+                ['Network', network],
+                ['Printer', printer],
+                ['Mail', mail],
+                ['Data Processing', dataprocessing],
+                ['Computer', datasystem],
+                ['Procurement', procurement],
+                ['Other', other],
+                ['Software', software],
+                ['KR Machine', krmachine],
+                ['Logs', logs],
+                
+        ]);
+
+        // Set options for Sarah's pie chart.
+        var options = {title:'Pie Chart',
+                       width:900,
+                       height:500};
+
+        // Instantiate and draw the chart for Sarah's pizza.
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+
+      // Callback that draws the pie chart for Anthony's pizza.
+      function drawAnthonyChart() {
+
+        // Create the data table for Anthony's pizza.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+          data.addColumn('number', 'Slices');
+        data.addRows([
+
+                
+                ['Network', network],
+                ['Printer', printer],
+                ['Mail', mail],
+                ['Data Processing', dataprocessing],
+                ['Computer', datasystem],
+                ['Procurement', procurement],
+                ['Other', other],
+                ['Software', software],
+                ['KR Machine', krmachine],
+                ['Logs', logs],
+        ]);
+
+        // Set options for Anthony's pie chart.
+        var options = {title:'Line Chart',
+                       width:900,
+                       height:500};
+
+        // Instantiate and draw the chart for Anthony's pizza.
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        chart.draw(data, options);
+      }
+
+
+
+        }
+
+
+
+
+        $(function () {
+
+            var start = moment().subtract(29, 'days');
+            var end = moment();
+
+            function cb(start, end) {
+                $('#daterange span').html(start.format('YYYY-MM-DD') + ' / ' + end.format('YYYY-MM-DD'));
+            }
+
+            $('#daterange').daterangepicker({
+                startDate: start,
+                endDate: end,
+                ranges: {
+                    'Today': [moment(), moment()],
+                    'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                    'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+                    'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                    'This Month': [moment().startOf('month'), moment().endOf('month')],
+                    'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+                }
+            }, cb);
+
+            cb(start, end);
+
+        });
+
+
+
+
+    </script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+   
+}

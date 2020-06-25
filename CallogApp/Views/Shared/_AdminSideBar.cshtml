@@ -1,0 +1,179 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using  CallogApp.Utility
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+
+<div class="sidebar-menu">
+    <header class="logo1">
+        <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a>
+    </header>
+    <div style="border-top:1px ridge rgba(255, 255, 255, 0.15)"></div>
+    <div class="menu">
+
+        @if (SignInManager.IsSignedIn(User))
+        {
+        <ul id="menu">
+            @if (User.IsInRole(SD.SuperAdminUser))
+            {
+
+
+                <li><a asp-area="admin" asp-controller="Home" asp-action="Index"><i class="fa fa-tachometer"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
+
+                <li id="menu-academico">
+                    <a asp-area="Admin" asp-controller="Requests" asp-action="Index">
+                        <i class="fa fa-envelope nav_icon">
+                        </i><span>All Requests</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+                <li id="menu-academico">
+                    <a asp-area="Admin" asp-controller="Requests" asp-action="PendingRequest">
+                        <i class="fa fa-envelope nav_icon">
+                        </i><span>Pending Requests</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+
+                <li id="menu-academico">
+                    <a asp-area="admin" asp-controller="Calls" asp-action="Index">
+                        <i class="fa fa-phone nav_icon">
+                        </i><span>Calls</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-area="Admin" asp-controller="Departments" asp-action="Index">
+                        <i class="fa fa-level-down" aria-hidden="true">
+                        </i><span>Departments</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-area="Admin" asp-controller="Devices" asp-action="Index">
+                        <i class="fa fa-laptop" aria-hidden="true">
+                        </i><span>Devices</span><div class="clearfix"></div>
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="Admin" asp-controller="Status" asp-action="Index">
+                        <i class="fa fa-info" aria-hidden="true">
+                        </i><span>Status</span><div class="clearfix"></div>
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="Admin" asp-controller="Account" asp-action="ChangeUserPassword">
+                        <i class="fa fa-key" aria-hidden="true">
+                        </i><span>Reset User Password</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+                <li id="menu-academico">
+                    <a asp-area="admin" asp-controller="user" asp-action="ListUser"><i class="fa fa-list-ul" aria-hidden="true"></i><span> KPIs</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
+                    <ul id="menu-academico-sub">
+                        <li id="menu-academico-avaliacoes">
+                            <a asp-area="admin" asp-controller="kpis" asp-action="Index">KPIs ByUser</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li id="menu-academico">
+                    <a asp-area="admin" asp-controller="user" asp-action="ListUser"><i class="fa fa-list-ul" aria-hidden="true"></i><span> Users</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
+                    <ul id="menu-academico-sub">
+                        <li id="menu-academico-avaliacoes">
+                            <a asp-area="admin" asp-controller="user" asp-action="Index">Users</a>
+                        </li>
+                        <li id="menu-academico-avaliacoes">  <a asp-area="admin" asp-controller="Roles" asp-action="Index">Roles</a></li>
+                        <li id="menu-academico-avaliacoes">  <a asp-area="admin" asp-controller="ITStaffs" asp-action="Index">IT Staff</a></li>
+                    </ul>
+                </li>
+
+                <li id="menu-academico">
+                    <a asp-area="admin" asp-controller="requestreports" asp-action="index"><i class="fa fa-list-ul" aria-hidden="true"></i><span> Reports</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
+                    <ul id="menu-academico-sub">
+                        <li id="menu-academico-avaliacoes">
+                            <a asp-area="admin" asp-controller="requestreports" asp-action="reportwithoutdepartment">Report by daternge</a>
+                        </li>
+                        <li id="menu-academico-avaliacoes">
+                            <a asp-area="admin" asp-controller="requestreports" asp-action="Index">Report by department</a>
+                        </li>
+                        <li id="menu-academico-avaliacoes">  <a asp-area="admin" asp-controller="requestreports" asp-action="category">Report by category</a></li>
+                        <li id="menu-academico-avaliacoes">  <a asp-area="admin" asp-controller="requestreports" asp-action="piechartreport">PieChart Report</a></li>
+                    </ul>
+                </li>
+
+            }
+
+            @if (User.IsInRole(SD.AdminUser))
+            {
+                <li><a asp-area="Admin" asp-controller="Home" asp-action="ITDashboard"><i class="fa fa-tachometer"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
+
+                <li id="menu-academico">
+                    <a asp-area="Admin" asp-controller="Requests" asp-action="PendingRequest">
+                        <i class="fa fa-envelope nav_icon">
+                        </i><span>Pending Requests</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+                <li id="menu-academico">
+                    <a asp-area="Admin" asp-controller="Requests" asp-action="MyAssignedTask">
+                        <i class="fa fa-envelope nav_icon">
+                        </i><span>My Assigned Requests</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+
+                <li id="menu-academico">
+                    <a asp-area="User" asp-controller="Account" asp-action="ChangePassword">
+                        <i class="fa fa-envelope nav_icon">
+                        </i><span>Change Password</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+            }
+
+
+            @if (!User.IsInRole("Super Admin") && !User.IsInRole("Admin"))
+            {
+                <li><a asp-area="user" asp-controller="Home" asp-action="Dashboard"><i class="fa fa-tachometer"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
+
+                <li id="menu-academico">
+                    <a asp-area="user" asp-controller="userrequest" asp-action="create">
+                        <i class="fa fa-plus nav_icon">
+                        </i><span>New Request</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+                <li id="menu-academico">
+                    <a asp-area="user" asp-controller="userrequest" asp-action="pendingrequest">
+                        <i class="fa fa-envelope nav_icon">
+                        </i><span>Pending Requests</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+                <li id="menu-academico">
+                    <a asp-area="User" asp-controller="UserRequest" asp-action="Index">
+                        <i class="fa fa-list-ul nav_icon">
+                        </i><span>All Requests</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+
+                <li id="menu-academico">
+                    <a asp-area="User" asp-controller="Account" asp-action="ChangePassword">
+                        <i class="fa fa-key nav_icon">
+                        </i><span>Change Password</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+
+
+            }
+
+
+        </ul>
+        }
+    </div>
+</div>

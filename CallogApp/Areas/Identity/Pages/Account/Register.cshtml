@@ -1,0 +1,134 @@
+﻿@page
+@model RegisterModel
+@using CallogApp.Utility
+@{
+    ViewData["Title"] = "Register";
+
+}
+
+@section Styles {
+   
+        <link rel="stylesheet" href="~/css/font-awesome.css" />
+        <link rel="stylesheet" href="~/css/login.css" />
+}
+
+<div class="row main-bg" style="padding-top:20px">
+
+    <div class="col-md-4"></div>
+    <div class="col-md-4 ">
+        
+        <div class="card  bg-gradient-primary">
+            <div class="card-body">
+
+                <h6 class="align-content-center"> Register </h6>
+                <form asp-route-returnUrl="@Model.ReturnUrl" method="post" class="horizontal">
+                    <div class="a-alert-container">
+                        <div class="a-alert-content">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-2">
+
+
+                        <input asp-for="Input.Name" type="text" placeholder="Name" required="" class="form-control" />
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="mb-2">
+
+                        <input asp-for="Input.Email" type="email" placeholder="Email" required="" class="form-control" />
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="mb-2">
+
+
+                       
+                        <select asp-for="Input.Department" class="form-control fz" asp-items="ViewBag.DepartmentId"></select>
+                        <div class="clear"></div>
+
+
+
+                    </div>
+
+                    <div class="mb-2">
+
+
+                        <input type="password" asp-for="Input.Password" placeholder="Password" required="" class="form-control" />
+
+                        <div class="clear"></div>
+
+                    </div>
+
+                    <div class="mb-2">
+
+
+                        <input type="password" asp-for="Input.ConfirmPassword" placeholder="Confirm Password" required="" class="form-control" />
+                        <div class="clear"></div>
+
+                    </div>
+
+
+
+
+                    <div class="clear"></div>
+                 
+                    @if (User.IsInRole("Super Admin"))
+                    {
+
+
+
+                        <div class="row mb-2">
+
+                            <div class="col-7">
+                                <label style="margin-left:0px">@SD.SuperAdminUser</label>
+                                <input type="radio" name="IdUserRole" value="@SD.AdminUser" checked />
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="col-7">
+                                <label style="margin-left:0px">@SD.AdminUser</label>
+                                <input type="radio" name="IdUserRole" value="@SD.AdminUser" checked />
+                                <div class="clear"></div>
+                            </div>
+
+
+                        </div>
+                    }
+
+
+
+
+
+                    <div class="mb-2">
+                        <button type="submit" class="btn btn-primary btn-block">Sign Up </button>
+                    </div>
+                </form>
+
+                <div class="clear"></div>
+                <div class="w3layouts_more-buttn">
+                    <h3>
+                        Have an account..?
+                        <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">
+                            Login Here
+                        </a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4"></div>
+
+</div>
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
