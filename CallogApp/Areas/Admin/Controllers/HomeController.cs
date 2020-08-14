@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 namespace CallogApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = SD.SuperAdminUser + "," + SD.AdminUser)]
+    
     public class HomeController : Controller
     {
         private readonly ApplicationDbContext _db;
@@ -19,6 +19,8 @@ namespace CallogApp.Areas.Admin.Controllers
         {
             _db = db;
         }
+
+        [Authorize(Roles = SD.SuperAdminUser)]
         public async Task<IActionResult> Index()
         {
             var users = await _db.ApplicationUsers.CountAsync();
@@ -63,7 +65,7 @@ namespace CallogApp.Areas.Admin.Controllers
                  .CountAsync();
 
             var dataKRCount = await _db.Requests
-                .Where(r => r.Issue.Name == "KRs Template Issue" && r.DateCreated.Date == DateTime.Today.Date)
+                .Where(r => r.Issue.Name == "KR Machine  Issue" && r.DateCreated.Date == DateTime.Today.Date)
                 .CountAsync();
 
             var logsCount = await _db.Requests
@@ -94,6 +96,7 @@ namespace CallogApp.Areas.Admin.Controllers
             return View();
         }
 
+        [Authorize(Roles = SD.AdminUser)]
         public async Task<IActionResult> ITDashboard()
         {
             var user = User.Identity.Name;
@@ -146,7 +149,7 @@ namespace CallogApp.Areas.Admin.Controllers
                  .CountAsync();
 
             var dataKRCount = await _db.Requests
-                .Where(r => r.Issue.Name == "KRs Template Issue" && r.DateCreated.Date == DateTime.Today.Date)
+                .Where(r => r.Issue.Name == "KR Machine  Issue" && r.DateCreated.Date == DateTime.Today.Date)
                 .CountAsync();
 
             var logsCount = await _db.Requests
@@ -172,6 +175,7 @@ namespace CallogApp.Areas.Admin.Controllers
             return View();
         }
 
+        [Authorize(Roles = SD.SuperAdminUser + "," + SD.AdminUser)]
         public IActionResult PieChart()
         {
             return View();

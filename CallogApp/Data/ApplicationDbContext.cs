@@ -27,6 +27,8 @@ namespace CallogApp.Data
         public DbSet<ITStaff> ITStaffs { get; set; }
         public DbSet<AssignRequest> AssignRequests { get; set; }
         public DbSet<Level> Levels { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder builder)

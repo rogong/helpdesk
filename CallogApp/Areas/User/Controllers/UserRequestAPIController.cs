@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using CallogApp.Data;
 using CallogApp.Dtos;
+using CallogApp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -16,9 +18,11 @@ namespace CallogApp.Areas.User.Controllers
     public class UserRequestAPIController : ControllerBase
     {
         private readonly ApplicationDbContext _db;
-        public UserRequestAPIController(ApplicationDbContext db)
+        private readonly IMapper _mapper;
+        public UserRequestAPIController(ApplicationDbContext db, IMapper mapper)
         {
             _db = db;
+            _mapper = mapper;
         }
         // GET requestS API
         public async Task<ActionResult<List<RequestToReturnDto>>> GetRequests()
@@ -34,26 +38,11 @@ namespace CallogApp.Areas.User.Controllers
                 .Include(r => r.ITStaff)
                 .OrderByDescending(r => r.DateCreated)
                 .ToListAsync();
-            var requestDto = requests.Select(request => new RequestToReturnDto
-            {
-                Id = request.Id,
-                UserId = request.UserId,
-                Status = request.Status.Name,
-                DateCreated = request.DateCreated.ToString(),
-                Department = request.Department.Name,
-                Issue = request.Issue.Name,
-                Device = request.Device.Name,
-                DepartmentOwner = request.DepartmentOwner,
-                ITStaff = request.ITStaff.Name,
-                Subject = request.Subject,
-                Message = request.Message,
-                isCancel = Convert.ToString(request.isCancel)
+           
+            var dataDto = _mapper.Map<IReadOnlyList<Request>, IReadOnlyList<RequestToReturnDto>>(requests);
 
-
-
-
-            }).ToList();
-            return Ok(new { data = requestDto });
+            return Ok(new { data = dataDto });
+            //return Ok(new { data = requestDto });
         }
 
         [HttpPut]
@@ -83,26 +72,10 @@ namespace CallogApp.Areas.User.Controllers
                 .Where(r => r.UserId == userId &&  r.Status.Name == "Pending")
                 .OrderByDescending(r => r.DateCreated)
                 .ToListAsync();
-            var requestDto = requests.Select(request => new RequestToReturnDto
-            {
-                Id = request.Id,
-                UserId = request.UserId,
-                Status = request.Status.Name,
-                DateCreated = request.DateCreated.ToString(),
-                Department = request.Department.Name,
-                Issue = request.Issue.Name,
-                Device = request.Device.Name,
-                DepartmentOwner = request.DepartmentOwner,
-                ITStaff = request.ITStaff.Name,
-                Subject = request.Subject,
-                Message = request.Message,
-                isCancel = Convert.ToString(request.isCancel)
+            
+            var dataDto = _mapper.Map<IReadOnlyList<Request>, IReadOnlyList<RequestToReturnDto>>(requests);
 
-
-
-
-            }).ToList();
-            return Ok(new { data = requestDto });
+            return Ok(new { data = dataDto });
         }
     }
 }

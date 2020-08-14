@@ -15,6 +15,7 @@ namespace CallogApp.Dtos
         public string UserId { get; set; }
 
         public string DateCreated { get; set; }
+        public string DateResolved { get; set; }
 
         public string ResponseDate { get; set; }
 
@@ -47,6 +48,12 @@ namespace CallogApp.Dtos
             return Int32.Parse(ResponseDate);
         }
 
+        public string OtherDevice { get; set; }
 
+        public string  OtherIssue { get; set; }
+        public string ResponseInterval { get; set; }
+
+        public string ResolutionInterval { get; set; }
+        public string PhotoUrl { get; set; }
     }
 }

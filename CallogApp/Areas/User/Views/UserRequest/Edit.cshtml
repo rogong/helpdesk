@@ -9,14 +9,16 @@
 
 <div class="row">
 
-    <div class="col-md-3"></div>
-    <div class="col-md-6 polaroid">
+    <div class="col-md-2">
+        <h4 class="text-dark text-uppercase">Edit Request</h4>
+    </div>
+    <div class="col-md-8 polaroid">
 
         <div class="w3l-table-info">
             <div class="message">@ViewBag.Message</div>
             <div class="agile-tables">
-                <h4 class="text-dark text-uppercase">Edit Request</h4>
-                <form asp-action="Edit">
+                
+                <form asp-action="Edit" enctype="multipart/form-data">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                     @Html.Hidden("UserId")
@@ -26,6 +28,12 @@
                     @Html.Hidden("DateCreated")
                     @Html.Hidden("UpdatedAt")
                     @Html.Hidden("DepartmentId")
+                    @Html.Hidden("step")
+                    @Html.Hidden("OtherIssue")
+                    @Html.Hidden("OtherDevice")
+
+                    <input hidden name="PhotoUrl" asp-for="PhotoUrl" />
+
 
                     <div class="form-group col-md-6" hidden>
                         <label asp-for="StatusId" class="control-label"></label>
@@ -38,22 +46,37 @@
                         <span asp-validation-for="Subject" class="text-danger"></span>
                     </div>
 
+
                     <div class="row">
                         <div class="form-group col-md-6">
-                            <label asp-for="Device" class="control-label"></label>
-                            <select asp-for="DeviceId" class="form-control" asp-items="ViewBag.DeviceId"></select>
+                            <label asp-for="DeviceId" class="control-label"></label>
+                            <select asp-for="DeviceId" class="device form-control" asp-items="ViewBag.DeviceId"></select>
+
+
+
+                            <input asp-for="OtherDevice" type="text" class="form-control" placeholder="Enter the device" id="other_device" />
+
                         </div>
                         <div class="form-group col-md-6">
-                            <label asp-for="IssueId" class="control-label"></label>
-                            <select asp-for="IssueId" class="form-control" asp-items="ViewBag.IssueId"></select>
+                            <label class="control-label">Category</label>
+                            <select asp-for="IssueId" class="category form-control" asp-items="ViewBag.IssueId"></select>
+
+
+                            <input asp-for="OtherIssue" type="text" class="form-control" placeholder="Enter the category" id="other_category" />
+
                         </div>
 
                     </div>
 
                     <div class="form-group">
                         <label class="control-label">Description</label>
-                        <textarea asp-for="Message" class="form-control" rows="6" cols="4"></textarea>
+                        <textarea asp-for="Message" class="form-control" rows="6" cols="4" id="mytextarea"></textarea>
                         <span asp-validation-for="Message" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <p>Upload one or more files(Optional):</p>
+                        <input type="file" name="file" />
                     </div>
                     <div class="form-group">
                         <input type="submit" value="Update" class="btn btn-block btn-primary text-white" />
@@ -63,7 +86,7 @@
         </div>
 
     </div>
-    <div class="col-md-3">
+    <div class="col-md-2">
 
         <a asp-action="Index">Back to List</a>
 
@@ -76,24 +99,78 @@
 
 @section Scripts{
 
+
+
+
     <script>
+        $(document).ready(function () {
+            $('#other_device').hide();
+            $('#other_category').hide();
 
-     
-       //var x =  $('#StatusId').val();
-     var x = document.getElementById("StatusId").selectedIndex;
-     var y = document.getElementById("StatusId").options; 
+            var Devicex = document.getElementById("DeviceId").selectedIndex;
+            var Devicey = document.getElementById("DeviceId").options;
+
+            var IssueIdx = document.getElementById("IssueId").selectedIndex;
+            var IssueIdy = document.getElementById("IssueId").options;
+
+            if (Devicey[Devicex].text == "Other") {
+                $('#other_device').show();
+            }
+            if (IssueIdy[IssueIdx].text == "OTHER") {
+                $('#other_category').show();
+            }
+        });
+        //Dislay error alert and fade it
+        $(".alert-dismissible").fadeTo(4000, 500).slideUp(500, function () {
+            $(".alert-dismissible").alert('close');
+        });
+
+        //check selctet changes
+        $(function () {
+            var selectedDevice;
+            var selectedCategory;
+
+            $("select.device").change(function () {
+                selectedDevice = $(this).children("option:selected").val();
+                //alert(selectedDevice)
+                if (selectedDevice == '14') {
+                    $('#other_device').show();
+                }
+                else {
+                    $('#other_device').hide();
+                }
+            });
+
+            $("select.category").change(function () {
+                selectedCategory = $(this).children("option:selected").val();
+                //alert(selectedCategory)
+                if (selectedCategory == '10') {
+                    $('#other_category').show();
+                }
+                else {
+                    $('#other_category').hide();
+                }
+            });
+        });
+
+        //var x =  $('#StatusId').val();
+        var x = document.getElementById("StatusId").selectedIndex;
+        var y = document.getElementById("StatusId").options;
 
 
-    if (y[x].text == "Resolved") {
-        alert('You can not edit this request at this stage');
-        $("#Subject").prop("readonly", true);
-        $("#DeviceId").prop("readonly", true);
-        $("#IssueId").prop("readonly", true);
-        $("#Message").prop("readonly", true);
+        if (y[x].text == "Resolved") {
+            alert('You can not edit this request at this stage');
+            $("#Subject").prop("readonly", true);
+            $("#DeviceId").prop("readonly", true);
+            $("#IssueId").prop("readonly", true);
+            $("#Message").prop("readonly", true);
 
-    }
-   
+        }
 
     </script>
 
+    <script src="~/js/ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('mytextarea');
+    </script>
 }

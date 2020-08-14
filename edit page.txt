@@ -1,0 +1,150 @@
+  <script>
+        $(document).ready(function () {
+
+        
+            var Level_x = document.getElementById("LevelId").selectedIndex;
+            var Level_y = document.getElementById("LevelId").options;
+
+            var x = document.getElementById("StatusId").selectedIndex;
+            var y = document.getElementById("StatusId").options;
+            var reasonx = $('#ReasonForHigh').text();
+
+            var xits = document.getElementById("ITStaffIdDiv").selectedIndex;
+            var yits = document.getElementById("ITStaffIdDiv").options;
+
+
+
+            //check if Level is High and Status is Pending
+            if (Level_y[Level_x].text == "High" && yits[xits].text == "Pending") {
+                $('#sta').append('Make sure you change status to InProgress and give the reason');
+                $('#reason_id').hide();
+                $("#StatusDiv").hide();
+            
+            }
+
+            //check if Level is High and Status is Pending
+            if (Level_y[Level_x].text == "High" && y[x].text == "Pending") {
+                $('#sta').append('Make sure you change status to InProgress and give the reason');
+                $('#reason_id').show();
+                $("#StatusDiv").show();
+            
+            } 
+
+            //check if is Low and or Medium
+            else if (Level_y[Level_x].text == "Low" || Level_y[Level_x].text == "Medium") {
+                  $('#reason_id').hide();
+            }
+            else if (y[x].text == "InProgress" && Level_y[Level_x].text == "High" && reasonx == "") {
+                $('#reason_id').show();
+                $("#level").show();
+                $("#StatusDiv").show();
+                $("#asignTo").show();
+                $("#resolved_id").hide();
+                $("#resolution_id").hide();
+
+            }
+
+                // if the status is in Progress
+            else if (y[x].text == "InProgress") {
+                $('#reason_id').hide();
+                $("#level").hide();
+                $("#StatusDiv").show();
+                $("#resolved_id").show();
+                $("#resolution_id").show();
+
+            }
+
+            //Dislay error alert and fade it
+        $(".alert-dismissible").fadeTo(4000, 500).slideUp(500, function(){
+            $(".alert-dismissible").alert('close');
+          });   
+
+        });
+
+        // check if the the status changes
+            var x = document.getElementById("StatusId").selectedIndex;
+            var y = document.getElementById("StatusId").options;
+
+
+            var ITStaffId_x = document.getElementById("ITStaffId").selectedIndex;
+            var ITStaffId_y = document.getElementById("ITStaffId").options;
+ 
+
+            if (y[x].text !== "Pending") {
+
+                $("#asignTo").hide();
+
+            }
+            else {
+
+                $("#asignTo").show();
+            }
+
+            if (y[x].text == "InProgress" || y[x].text == "Resolved") {
+
+                $("#resolved_id").show();
+                $("#resolution_id").show();
+
+            }
+            else {
+
+                $("#resolved_id").hide();
+                $("#resolution_id").hide();
+            }
+
+
+            if (ITStaffId_y[ITStaffId_x].text == "Pending") {
+
+                //$("#level").hide();
+                $("#StatusDiv").hide();
+                 $('#reason_id').hide();
+
+            }
+            else {
+                $("#level").show();
+                $("#StatusDiv").show();
+            }
+
+        //check selctet changes 
+        $(function () {
+            var selectedStatus;
+
+             $("select.status").change(function(){
+                     selectedStatus = $(this).children("option:selected").val();
+                   
+                 if (selectedStatus == '2') {
+                     $('#sta').remove();
+                 }
+                 else if(selectedText === "High" && selectedStatus == '1') {
+                     $('#sta').append('Make sure you change status to InProgress');
+                 }
+                      });
+            
+                $("#level").change(function () {
+                    var selectedText = $(this).find("option:selected").text();
+                 
+                    if (selectedText === "High" && (y[x].text === "Pending" || selectedStatus === 2)) {
+
+
+                        $('#sta').append('Make sure you change status to InProgress');
+                         
+
+                    }
+
+
+                    if (selectedText === "High") {
+
+                        $('#reason_id').show();
+
+                        $('#resolution_id').hide();
+
+
+                    }
+
+                   
+                });
+            });
+
+         
+
+    </script>

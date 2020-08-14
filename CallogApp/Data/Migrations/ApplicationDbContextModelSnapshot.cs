@@ -91,6 +91,27 @@ namespace CallogApp.Data.Migrations
                     b.ToTable("Calls");
                 });
 
+            modelBuilder.Entity("CallogApp.Models.Comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Content")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Comments");
+                });
+
             modelBuilder.Entity("CallogApp.Models.Department", b =>
                 {
                     b.Property<int>("Id")
@@ -195,6 +216,9 @@ namespace CallogApp.Data.Migrations
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("DateResolved")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("DepartmentId")
                         .HasColumnType("int");
 
@@ -217,10 +241,22 @@ namespace CallogApp.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("OtherDevice")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OtherIssue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhotoUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ReasonForHigh")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Resolution")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ResolutionInterval")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ResolvedBy")
@@ -234,6 +270,9 @@ namespace CallogApp.Data.Migrations
 
                     b.Property<TimeSpan>("ResponseDate")
                         .HasColumnType("time");
+
+                    b.Property<string>("ResponseInterval")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("StatusId")
                         .HasColumnType("int");
@@ -250,6 +289,9 @@ namespace CallogApp.Data.Migrations
 
                     b.Property<bool>("isCancel")
                         .HasColumnType("bit");
+
+                    b.Property<int>("step")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

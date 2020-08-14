@@ -64,21 +64,86 @@ function loadDataTable() {
                 "data": null,
                 "defaultContent": '<i class = "glyphicon glyphicon-plus-sign bg-success text-white"> </i>',
             },
-            { "data": "departmentOwner", "width": "20%" },
-            { "data": "status", "width": "20%" },
-            { "data": "dateCreated", "width": "20%" },
-            { "data": "issue", "width": "20%" },
-            { "data": "device", "width": "20%" },
-            { "data": "subject", "width": "20%" },
-            { "data": "itStaff", "width": "20%" },
             {
-                "data": "id", "render": function (data) {
-                    return `<div class="text-center">
-             <a href="/User/UserRequest/Edit/${data}" class='style='cursor:pointer;'><i class='fa fa-edit text-success'></i>Edit</a>
-            &nbsp<a class='btn text-danger style='cursor:pointer;' onclick=Delete('/api/userrequest?id='+${data})><i class='fa fa-trash text-danger'></i>Delete</a></div>`;
-                }, "width": "40%"
-            }
+                "render": function (data, type, full) {
 
+                    var status = `${full.status}`;
+
+                    if (status === 'Resolved') {
+                        return `<div style="color:green" class="fa fa-check"><strong>${status}</strong></div>`;
+                       
+                    }
+
+                    return `<div style="color:red" class="fa fa-circle">${status}</div>`;
+                }
+                //"data": "status", "width": "20%"
+            },
+            { "data": "dateCreated"},
+            //{ "data": "issue", "width": "20%" },
+            {
+                "render": function (data, type, full) {
+
+                    var isIssue = `${full.issue}`;
+                    if (isIssue === 'OTHER') {
+
+                        return `<div>${full.otherIssue}</div>`
+
+                    }
+                    else {
+                        return `<div>${full.issue}</div>`
+                    }
+                }
+              
+            },
+            //{ "data": "device" },
+            {
+                "render": function (data, type, full) {
+
+                    var device = `${full.device}`;
+                    if (device === 'Other') {
+
+                        return `<div">${full.otherDevice}</div>`
+
+                    }
+                    else {
+                        return `<div">${full.device}</div>`
+                    }
+                }
+             
+            },
+            { "data": "subject"},
+            { "data": "itStaff"},
+            {
+                "render": function (data, type, full) {
+
+                    var isCancel = `${full.isCancel}`;
+                    if (isCancel === 'True') {
+                        return `<div style="color:red">Canceled</div>`
+
+                    }  
+
+                    var status = `${full.status}`;
+
+                    if (status === 'Resolved') {
+                        return `<span><strong>Closed</strong></span>`;
+                    }
+                    else {
+                        return `<div class="text-center" id="editDiv">
+             <a href="/User/UserRequest/Edit/${full.id}" class='style='cursor:pointer;'><i class='fa fa-edit text-success'>edit</i></a>
+            &nbsp<a class='btn text-danger style='cursor:pointer;font-size:14px' onclick=Cancel('/api/userrequest?id='+${full.id})><i class='fa fa-window-close text-danger'>cancel</i></a>
+               </div>`;
+                    }
+             
+                
+                }
+            },
+            {
+                "data": "isCancel", "render": function (data, type, row) {
+                    return `<div id="isCancel" hidden>${data}</div>`
+                }
+               
+            }
+            
         ],
         "language": {
             "emptyTable": "no data found"
@@ -88,16 +153,17 @@ function loadDataTable() {
 
 }
 
-function Delete(url) {
+function Cancel(url) {
     swal({
         title: "Are you sure?",
-        text: "Once deleted, you will not able to recover",
+        text: "Once canceled, you will not able to recover",
         icon: "warning",
+        buttons: true,
         dangerMode: true
     }).then((willDelete) => {
         if (willDelete) {
             $.ajax({
-                type: "DELETE",
+                type: "Put",
                 url: url,
                 success: function (data) {
                     if (data.success) {
@@ -111,4 +177,6 @@ function Delete(url) {
             });
         }
     });
+
+  
 }

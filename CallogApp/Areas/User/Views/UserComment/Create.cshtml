@@ -1,0 +1,46 @@
+﻿@model CallogApp.Models.Comment
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+
+<h4>Write Comment for ticket id @Context.Request.RouteValues["id"] </h4>
+<hr />
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            @Html.Hidden("CreatedDate")
+            @Html.Hidden("UserId")
+
+            <div class="form-group">
+                @*<label asp-for="Content" class="control-label"></label>*@
+
+                <textarea asp-for="Content" class="form-control" rows="4" cols="4" id="mytextarea"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary btn-block" />
+            </div>
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+<div>
+    <a asp-action="GetAllCommentsByRequest" asp-route-id="@Context.Request.RouteValues["id"]">View all the comments</a>
+</div>
+
+@section Scripts{
+    <script src="~/js/ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('mytextarea');
+    </script>
+}
+
+

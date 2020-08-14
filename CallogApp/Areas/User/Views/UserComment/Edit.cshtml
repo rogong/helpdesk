@@ -1,0 +1,46 @@
+﻿@model CallogApp.Models.Comment
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h4>Edit Comment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            @Html.Hidden("CreatedDate")
+            @Html.Hidden("UserId")
+            
+            <div class="form-group">
+
+
+                <textarea asp-for="Content" class="form-control" rows="4" cols="4" id="mytextarea"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary btn-block" />
+            </div>
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+<div>
+    <a asp-action="GetAllCommentsByRequest" asp-route-id="@Context.Request.RouteValues["id"]">View all the comments</a>
+</div>
+
+@section Scripts{
+    <script src='https://cdn.tiny.cloud/1/wj78elk3zmxemkcbg3z4ss0mejbb56n8bf7bwik1nf67xc4o/tinymce/5/tinymce.min.js' referrerpolicy="origin">
+    </script>
+    <script>
+            tinymce.init({
+                selector: '#mytextarea'
+            });
+    </script>
+}

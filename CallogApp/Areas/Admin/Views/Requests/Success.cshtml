@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Success";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Success</h2>
+
+
+<div class="container mt-5">
+    <div><i class="fa fa-check-circle fa-5x" style="color: green;"></i></div>
+    <h2>Thank you!. Your request has been submitted</h2>
+    <p class="mb-4">
+        Kindly check your email or dashbaord for updates!
+    </p>
+    <a class="btn btn-outline-success" asp-area="admin" asp-controller="requests" asp-action="pendingrequest">
+
+
+        View your pending requests
+
+    </a>
+
+
+</div>

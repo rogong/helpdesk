@@ -2,10 +2,20 @@
 
 function format(d) {
 
-    return "<strong>Description</strong>:<br>" + d.message
-        + "<br><strong>Device</strong>" + "<br>" + d.device
-        + "<br><strong>Resolution</strong>:<br>" + d.resolution;
+    var stringConc = "<h5><strong>Created By:</strong>" + "      " + d.userId + '</h5>'
+        + "<h5><strong> Created At:</strong >" + " " + d.dateCreated + '</h5>'
+        + "<h5><strong> Resolved At:</strong>" + " " + d.dateResolved + '</h5>'
+        + "<h5><strong> Subject:</strong>" + " " + d.subject + '</h5>'
+        + "<h5><strong> Description:</strong>" + " " + d.message + '</h5>'
+        + "<h5><strong>Device:</strong>" + " " + d.device + ": " + d.otherDevice + '</h5>'
+        + "<h5><strong>Resolution:</strong>" + " " + d.resolution + '</h5>';
 
+    if (d.photoUrl !== null) {
+        return stringConc + "<h5><strong>Photo:</strong>" + '<img height="300px " width="600px" src="' + d.photoUrl + '" />';
+    }
+    else {
+        return stringConc;
+    }
 }
 
 $(document).ready(function () {
@@ -69,6 +79,7 @@ function loadDataTable() {
                 "data": null,
                 "defaultContent": '<i class = "glyphicon glyphicon-plus-sign bg-success text-white"> </i>',
             },
+            { "data": "id" },
             { "data": "department" },
             {
                 "render": function (data, type, full) {
@@ -83,13 +94,60 @@ function loadDataTable() {
                 }
                 //"data": "status", "width": "20%"
             },
-            { "data": "dateCreated" },
-            { "data": "respondedDate" },
-            { "data": "responseDate" },
-            { "data": "resolvedDate" },
-            { "data": "issue" },
-            // { "data": "device"},
-            { "data": "subject" },
+            {
+                "render": function (data, type, full) {
+
+                    var resolvTime = `${full.responseInterval}`;
+                    // alert(resolvTime)
+                    if (resolvTime === 'null') {
+
+                        return `<div style="color:red"></div>`
+
+                    }
+                    else {
+                        return `<div style="color:red">${full.responseInterval}</div>`
+                    }
+                }
+            },
+
+
+            { "data": "dateResolved" },
+
+
+
+            //{ "data": "resolvedDate" },
+
+            {
+                "render": function (data, type, full) {
+
+                    var respTime = `${full.resolutionInterval}`;
+
+                    if (respTime === 'null') {
+
+                        return `<div style="color:red"></div>`
+
+                    }
+                    else {
+                        return `<div style="color:red">${full.resolutionInterval}</div>`
+                    }
+                }
+            },
+            //{ "data": "issue" },
+            {
+                "render": function (data, type, full) {
+
+                    var isIssue = `${full.issue}`;
+                    if (isIssue === 'OTHER') {
+
+                        return `<div style="color:red">${full.otherIssue}</div>`
+
+                    }
+                    else {
+                        return `<div style="color:red">${full.issue}</div>`
+                    }
+                }
+            },
+            //{ "data": "subject" },
             { "data": "itStaff" },
             { "data": "resolvedBy" },
             {

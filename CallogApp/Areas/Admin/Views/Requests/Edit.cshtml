@@ -9,7 +9,7 @@
 <div class="row">
 
     <a asp-action="Index">Back to List</a>
-    <form asp-action="Edit"  onsubmit="return validateForm()" name="myForm">
+    <form asp-action="Edit" onsubmit="return validateForm()" name="myForm">
 
         <div class="col-md-7 polaroid mt-5">
             <h4 class="text-dark text-uppercase">User Request</h4>
@@ -25,8 +25,12 @@
             @Html.Hidden("RespondedDate")
             @Html.Hidden("ResponseDate")
             @Html.Hidden("ResolvedDate")
-           
-
+            @Html.Hidden("step")
+            @Html.Hidden("OtherDevice")
+            @Html.Hidden("OtherIssue")
+            @Html.Hidden("PhotoUrl")
+            @Html.Hidden("ResponseInterval")
+            @Html.Hidden("ResolutionInterval")
 
 
 
@@ -37,30 +41,30 @@
             </div>
             <div class="form-group">
                 <label asp-for="DepartmentId" class="control-label"></label>
-                <label  class="form-control" readonly>@ViewBag.Department</label>
-                <div hidden><select asp-for="DepartmentId"  class="form-control" asp-items="ViewBag.DepartmentId"></select></div>
+                <label class="form-control" readonly>@ViewBag.Department</label>
+                <div hidden><select asp-for="DepartmentId" class="form-control" asp-items="ViewBag.DepartmentId"></select></div>
             </div>
             <div class="row">
                 <div class="form-group col-md-6">
                     <label asp-for="DeviceId" class="control-label"></label>
                     <label class="form-control" readonly>@ViewBag.Device</label>
-                    <div hidden> <select asp-for="DeviceId"  class="form-control" asp-items="ViewBag.DeviceId"></select></div>
+                    <div hidden> <select asp-for="DeviceId" class="form-control" asp-items="ViewBag.DeviceId"></select></div>
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">Category</label>
                     <label class="form-control" readonly>@ViewBag.Issue</label>
-                    <div hidden><select asp-for="IssueId"  class="form-control" asp-items="ViewBag.IssueId"></select></div>
+                    <div hidden><select asp-for="IssueId" class="form-control" asp-items="ViewBag.IssueId"></select></div>
                 </div>
 
             </div>
 
             <div class="form-group">
                 <label class="control-label">Description</label>
-                <textarea asp-for="Message" class="form-control" rows="5" readonly></textarea>
+                <textarea asp-for="Message" class="form-control" rows="5" readonly id="mytextarea3"></textarea>
                 <span asp-validation-for="Message" class="text-danger"></span>
             </div>
         </div>
-            
+
         <div class="col-md-5 polaroid mt-5">
             <h6>ADMIN -- EDIT REQUEST</h6>
             <div asp-validation-summary="All" class="text-danger"></div>
@@ -69,23 +73,23 @@
                 <div class="alert alert-danger  alert-dismissible" role="alert">
                     @ViewBag.progressMessage
                 </div>
-                
+
             }
 
             @if (@ViewBag.reasonMessage != null)
             {
-               
+
                 <div class="alert alert-danger  alert-dismissible" role="alert">
                     @ViewBag.reasonMessage
                 </div>
             }
-            <div class="row">
+            <div class="row" id="ITStaffIdDiv">
                 <div class="form-group col-md-6" id="asignTo">
                     <label asp-for="ITStaffId" class="control-label"></label>
                     <select asp-for="ITStaffId" class="form-control" asp-items="ViewBag.ITStaffId"></select>
                 </div>
                 <div class="form-group col-md-6" id="level">
-                    <label class="control-label">Level</label>
+                    <label class="control-label">Priority</label>
                     <select asp-for="LevelId" class="form-control" asp-items="ViewBag.LevelId"></select>
                 </div>
             </div>
@@ -105,13 +109,13 @@
 
             <div class="form-group" id="resolution_id">
                 <label class="control-label">Resolution</label>
-                <textarea asp-for="Resolution" class="form-control" rows="5"></textarea>
+                <textarea asp-for="Resolution" class="form-control" rows="5" id="mytextarea"></textarea>
                 <span asp-validation-for="Resolution" class="text-danger"></span>
             </div>
 
             <div class="form-group" id="reason_id">
                 <label class="control-label">Reason for delay</label>
-                <textarea asp-for="ReasonForHigh" class="form-control" rows="5"></textarea>
+                <textarea asp-for="ReasonForHigh" class="form-control" rows="5" id="mytextarea2"></textarea>
                 <span asp-validation-for="ReasonForHigh" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -128,138 +132,87 @@
 @section Scripts{
 
     <script>
+
         $(document).ready(function () {
 
-        
+
             var Level_x = document.getElementById("LevelId").selectedIndex;
             var Level_y = document.getElementById("LevelId").options;
 
             var x = document.getElementById("StatusId").selectedIndex;
             var y = document.getElementById("StatusId").options;
-            
-            
-            if (Level_y[Level_x].text == "High" && y[x].text == "Pending") {
-                $('#sta').append('Make sure you change status to InProgress and give the reason');
+            var reasonx = $('#ReasonForHigh').text();
+
+            var xits = document.getElementById("ITStaffId").selectedIndex;
+            var yits = document.getElementById("ITStaffId").options;
+
+            //check if Level is High and Status is Pending
+            if (yits[xits].text == "Pending") {
+
+                $('#reason_id').hide();
+                $("#StatusDiv").hide();
+                $("#resolved_id").hide();
+                $("#resolution_id").hide();
+
+            }
+
+            else if (y[x].text == "Pending" && yits[xits].text != "Pending" && Level_y[Level_x].text == "High") {
+
                 $('#reason_id').show();
                 $("#StatusDiv").show();
-            
-            } 
-            else if (Level_y[Level_x].text == "Low" || Level_y[Level_x].text == "Medium") {
-                  $('#reason_id').hide();
+                $("#resolved_id").hide();
+                $("#resolution_id").hide();
+
             }
-             else if (y[x].text == "InProgress") {
+            else if (y[x].text == "Pending" && yits[xits].text != "Pending" && Level_y[Level_x].text == "Low") {
+
                 $('#reason_id').hide();
-                $("#level").hide();
                 $("#StatusDiv").show();
-                $("#resolved_id").show();
-                $("#resolution_id").show();
-
-            }
-          
-        $(".alert-dismissible").fadeTo(4000, 500).slideUp(500, function(){
-            $(".alert-dismissible").alert('close');
-          });   
-
-});
-            var x = document.getElementById("StatusId").selectedIndex;
-            var y = document.getElementById("StatusId").options;
-
-
-            var ITStaffId_x = document.getElementById("ITStaffId").selectedIndex;
-            var ITStaffId_y = document.getElementById("ITStaffId").options;
- 
-
-            if (y[x].text !== "Pending") {
-
-                $("#asignTo").hide();
-
-            }
-            else {
-
-                $("#asignTo").show();
-            }
-
-            if (y[x].text == "InProgress" || y[x].text == "Resolved") {
-
-                $("#resolved_id").show();
-                $("#resolution_id").show();
-
-            }
-            else {
-
                 $("#resolved_id").hide();
                 $("#resolution_id").hide();
             }
+            else if (y[x].text == "Pending" && yits[xits].text != "Pending" && Level_y[Level_x].text == "Medium") {
 
-         //if (y[x].text == "InProgress" || y[x].text == "Resolved")
-            //if (y[x].text == "Resolved") {
-
-            //    $("#resolution_id").show();
-
-            //}
-            //else {
-
-            //    $("#resolution_id").hide();
-            //}
-
-            if (ITStaffId_y[ITStaffId_x].text == "Pending") {
-
-                //$("#level").hide();
-                $("#StatusDiv").hide();
-                 $('#reason_id').hide();
-
-            }
-            else {
-                $("#level").show();
+                $('#reason_id').hide();
                 $("#StatusDiv").show();
+                $("#resolved_id").hide();
+                $("#resolution_id").hide();
+            }
+            else if (y[x].text != "Pending" && yits[xits].text != "Pending") {
+
+                $('#reason_id').hide();
+                $("#StatusDiv").show();
+                $("#resolved_id").show();
+                $("#resolution_id").show();
             }
 
+        });
 
+        //Dislay error alert and fade it
+        $(".alert-dismissible").fadeTo(4000, 500).slideUp(500, function () {
+            $(".alert-dismissible").alert('close');
+        });
+
+        //check selctet changes
         $(function () {
-            var selectedStatus;
 
-             $("select.status").change(function(){
-                     selectedStatus = $(this).children("option:selected").val();
-                   
-                 if (selectedStatus == '2') {
-                     $('#sta').remove();
-                 }
-                 else if(selectedText === "High" && selectedStatus == '1') {
-                     $('#sta').append('Make sure you change status to InProgress');
-                 }
-                      });
-            
-                $("#level").change(function () {
-                    var selectedText = $(this).find("option:selected").text();
-                   // var selectedStatus = $(this).val();
+            $("#level").change(function () {
+                var selectedText = $(this).find("option:selected").text();
 
-                    
-
-                    if (selectedText === "High" && (y[x].text === "Pending" || selectedStatus === 2)) {
-
-
-                        $('#sta').append('Make sure you change status to InProgress');
-                          //document.getElementById("#ReasonForHigh").required = true;
-
-                    }
-
-
-                    if (selectedText === "High") {
-
-                        $('#reason_id').show();
-
-                        $('#resolution_id').hide();
-
-
-                    }
-
-                   
-                });
+                if (selectedText !== "High") {
+                    $('#reason_id').hide();
+                }
             });
-
-         
-
+        });
     </script>
 
+    <script src="~/js/ckeditor/ckeditor.js"></script>
+    <script>
+         CKEDITOR.replace('mytextarea');
+         CKEDITOR.replace('mytextarea2');
+         CKEDITOR.replace('mytextarea3');
+
+           
+    </script>
 }
 

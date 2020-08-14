@@ -16,5 +16,11 @@ namespace CallogApp.Controllers
         {
             return RedirectToAction("Login", "Account", new { Area = "Identity" });
         }
+
+
+        public IActionResult Register()
+        {
+            return RedirectToAction("Register", "Account", new { Area = "Identity" });
+        }
     }
 }

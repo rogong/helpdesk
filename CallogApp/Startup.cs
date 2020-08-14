@@ -1,14 +1,13 @@
 using AutoMapper;
 using CallogApp.Data;
-using CallogApp.Models;
 using CallogApp.Utility;
 using CallogApp.Utility.Mail;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Identity.UI.Services;
+//using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -35,9 +34,11 @@ namespace CallogApp
             services.AddIdentity<IdentityUser, IdentityRole>(
                 // options => options.SignIn.RequireConfirmedAccount = true
                 )
+                .AddDefaultUI()
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+      
             services.AddMvc().AddRazorPagesOptions(options =>
             {
                 options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "");
@@ -45,13 +46,13 @@ namespace CallogApp
                                  .RequireAuthenticatedUser()
                                  .Build();
 
-            }).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-            services.AddRazorPages();
+            });
+            services.AddRazorPages().AddRazorRuntimeCompilation();
             services.AddSingleton<IEmailConfiguration>(Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>());
             services.AddTransient<IEmailService, EmailService>();
             services.AddAutoMapper(typeof(MappingProfiles));
 
-
+            //services.AddSwaggerGen();
         }
 
 
@@ -65,7 +66,7 @@ namespace CallogApp
             else
             {
                 app.UseExceptionHandler("/Error");
-                app.UseStatusCodePagesWithReExecute("/Error/{0}");
+                //app.UseStatusCodePagesWithReExecute("/Error/{0}");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
@@ -73,24 +74,26 @@ namespace CallogApp
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+         
+
             app.UseRouting();
 
             app.UseAuthentication();
             app.UseAuthorization();
 
+            //app.UseSwagger();
+            //app.UseSwaggerUI(s =>
+            //{
+            //    s.SwaggerEndpoint("/swagger/v1/swagger.json", "Superflux IT HelpDesk API v1");
+            //});
             app.UseEndpoints(endpoints =>
-            {
-
-                endpoints.MapControllerRoute(
-                    name: "area",
-                    pattern: "{area=User}/{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
-
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
-            });
+           {
+               endpoints.MapControllerRoute(
+                   name: "areas",
+                   pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+               endpoints.MapRazorPages();
+           });
         }
+
     }
 }

@@ -22,7 +22,7 @@ namespace CallogApp.Utility.Mail
             //Subject
             message.Subject = subject;
             // E-mail message  body
-            message.Body = new TextPart(TextFormat.Plain)
+            message.Body = new TextPart(TextFormat.Html)
             {
                 Text = content
             };

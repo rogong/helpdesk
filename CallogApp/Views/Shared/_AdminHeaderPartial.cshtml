@@ -1,22 +1,35 @@
-﻿<!--header start here-->
+﻿@using Microsoft.AspNetCore.Identity
+@using  CallogApp.Utility
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+<!--header start here-->
 <div class="header-main">
     <div class="logo-w3-agile">
-        <h1><a asp-area="admin" asp-controller="index" asp-action="Dashboard">Dashboard</a></h1>
-    </div>
-    <div class="w3layouts-left">
+        @if (SignInManager.IsSignedIn(User))
+        {
 
-        <!--search-box-->
-        <div class="w3-search-box">
-            <form action="#" method="post">
-                <input type="text" placeholder="Search..." required="">
-                <input type="submit" value="">
-            </form>
+            @if (User.IsInRole(SD.SuperAdminUser))
+            {
+                <h1><a asp-area="admin" asp-controller="home" asp-action="index">Dashboard</a></h1>
+            }
 
-        </div><!--//end-search-box-->
-        <div class="clearfix"> </div>
+            @if (User.IsInRole(SD.AdminUser))
+            {
+                <h1><a asp-area="admin" asp-controller="home" asp-action="itdashboard">Dashboard</a></h1>
+            }
+
+            @if (!User.IsInRole(SD.SuperAdminUser) && !User.IsInRole(SD.AdminUser))
+            {
+                <h1><a asp-area="user" asp-controller="home" asp-action="dashboard">Dashboard</a></h1>
+            }
+
+
+        }
+
     </div>
+   
     <div class="w3layouts-right">
-       
+
         <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
             <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
                 @await Component.InvokeAsync("UserName")
@@ -36,23 +49,24 @@
                             @if (User.Identity.IsAuthenticated)
                             {
 
-                                <span>@User.Identity.Name</span>
+                            <span>@User.Identity.Name</span>
                             }
                         </div>
                         <i class="fa fa-angle-down"></i>
                         <i class="fa fa-angle-up"></i>
                         <div class="clearfix"></div>
-                        
+
                     </div>
                 </a>
                 <ul class="dropdown-menu drp-mnu">
-        
-        <li> 
-        <a  asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Profile</a> </li>
-                    
-        <li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li>   
-            
-        </ul>
+
+                    <li>
+                        <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Profile</a>
+                    </li>
+
+                    <li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li>
+
+                </ul>
     </div>
 
     <div class="clearfix"> </div>

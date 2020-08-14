@@ -1,0 +1,16 @@
+﻿@model IEnumerable<CallogApp.Models.Comment>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="view-all">
+    @await Html.PartialAsync("_ViewAll", Model);
+</div>
+
+
+
+@section Scripts{
+    <script src="~/js/App/comment.js"></script>
+}

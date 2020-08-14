@@ -20816,6 +20816,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\User\\Views\\UserComment\\Details.cshtml",
+      "TargetPath": "Areas\\User\\Views\\UserComment\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\User\\Views\\UserComment\\GetAllCommentsByRequest.cshtml",
+      "TargetPath": "Areas\\User\\Views\\UserComment\\GetAllCommentsByRequest.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\Admin\\Views\\Issues\\Edit.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Issues\\Edit.cshtml",
       "FileKind": "mvc"
@@ -20861,6 +20871,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\User\\Views\\UserComment\\Success.cshtml",
+      "TargetPath": "Areas\\User\\Views\\UserComment\\Success.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
       "FileKind": "mvc"
@@ -20883,6 +20898,16 @@
     {
       "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\User\\Views\\UserComment\\Index.cshtml",
+      "TargetPath": "Areas\\User\\Views\\UserComment\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\User\\Views\\UserComment\\Delete.cshtml",
+      "TargetPath": "Areas\\User\\Views\\UserComment\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20938,6 +20963,11 @@
     {
       "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\Admin\\Views\\User_\\EditUser.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\User_\\EditUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\User\\Views\\UserComment\\Edit.cshtml",
+      "TargetPath": "Areas\\User\\Views\\UserComment\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -21031,6 +21061,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\Admin\\Views\\Requests\\Success.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Requests\\Success.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\Admin\\Views\\Departments\\Edit.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Departments\\Edit.cshtml",
       "FileKind": "mvc"
@@ -21038,6 +21073,11 @@
     {
       "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\Admin\\Views\\RequestReports\\ByUser.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\RequestReports\\ByUser.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -21158,6 +21198,11 @@
     {
       "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\User\\Views\\UserRequest\\_Comment.cshtml",
+      "TargetPath": "Areas\\User\\Views\\UserRequest\\_Comment.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -21353,6 +21398,11 @@
     {
       "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\Admin\\Views\\ITStaffs\\Create.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\ITStaffs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\HelpDesk\\CallogApp\\Areas\\User\\Views\\UserComment\\Create.cshtml",
+      "TargetPath": "Areas\\User\\Views\\UserComment\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

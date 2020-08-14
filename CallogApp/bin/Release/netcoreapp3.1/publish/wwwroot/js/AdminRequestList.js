@@ -2,11 +2,25 @@
 
 function format(d) {
 
-    return d.message;
-
+    return "<h5><strong>Created By:</strong>"  + "      " + d.userId + '</h5>'
+        + "<h5><strong> Created At:</strong >" + " " +  d.dateCreated + '</h5>'
+        + "<h5><strong> Resolved At:</strong>" + " " + d.dateResolved + '</h5>'
+        + "<h5><strong> Subject:</strong>" + " " + d.subject + '</h5>'
+        + "<h5><strong> Description:</strong>" + " " + d.message + '</h5>'
+        + "<h5><strong>Device:</strong>" + " " + d.device  + ": " + d.otherDevice + '</h5>'
+        + "<h5><strong>Resolution:</strong>" + " " + d.resolution + '</h5>';
+        
 }
 
 $(document).ready(function () {
+
+    var styles = {
+        fontSize: '14px',
+        fontWeight: "500px"
+    };
+
+    $("#myId").css(styles);
+
     loadDataTable();
 
     var detailRows = [];
@@ -19,7 +33,6 @@ $(document).ready(function () {
         if (row.child.isShown()) {
             tr.removeClass('details');
             row.child.hide();
-
             // Remove from the 'open' array
             detailRows.splice(idx, 1);
         }
@@ -51,6 +64,7 @@ function loadDataTable() {
             "type": "GET",
             "datatype": "json"
         },
+
         dom: 'Bfrtip',
         buttons: [
             'print',
@@ -59,6 +73,7 @@ function loadDataTable() {
             // 'csvHtml5',
             'pdfHtml5'
         ],
+
         "columns": [
             {
                 "class": "details-control",
@@ -67,20 +82,111 @@ function loadDataTable() {
                 "defaultContent": '<i class = "glyphicon glyphicon-plus-sign bg-success text-white"> </i>',
             },
             { "data": "department"},
-            { "data": "status"},
-            { "data": "dateCreated"},
-            { "data": "respondedDate" },
+            {
+                "render": function (data, type, full) {
+
+                    var status = `${full.status}`;
+
+                    if (status === 'Resolved') {
+                        return `<div style="color:green" class="fa fa-check"><strong>${status}</strong></div>`;
+                    }
+
+                    return `<div style="color:red" class="fa fa-circle">${status}</div>`;
+                }
+                //"data": "status", "width": "20%"
+            },
+            //{ "data": "dateCreated" },
+            //{ "data": "respondedDate" },
+
+
+            //{ "data": "responseDate" },
+
+            {
+                "render": function (data, type, full) {
+
+                    var resolvTime = `${full.responseDate}`;
+                   // alert(resolvTime)
+                    if (resolvTime === '00:00:00') {
+
+                        return `<div style="color:red"></div>`
+
+                    }
+                    else {
+                        return `<div style="color:red">${full.responseDate}</div>`
+                    }
+                }
+            },
+
+
+            { "data": "dateResolved" },
+
+
+
             //{ "data": "resolvedDate" },
-            { "data": "issue" },
-            { "data": "device"},
-            { "data": "subject"},
+
+            {
+                "render": function (data, type, full) {
+
+                    var respTime = `${full.resolvedDate}`;
+                    if (respTime === '00:00:00') {
+
+                        return `<div style="color:red"></div>`
+
+                    }
+                    else {
+                        return `<div style="color:red">${full.resolvedDate}</div>`
+                    }
+                }
+            },
+
+           // { "data": "issue" },
+            {
+                "render": function (data, type, full) {
+
+                    var isIssue = `${full.issue}`;
+                    if (isIssue === 'OTHER') {
+                        //alert(full.otherIssue)
+                        return `<div>${full.otherIssue}</div>`
+
+                    }
+                    else {
+                        return `<div>${full.issue}</div>`
+                    }
+                }
+            },
+            //{ "data": "subject"},
             { "data": "itStaff" },
             { "data": "resolvedBy"},
             {
-                "data": "id", "render": function (data) {
-                    return `<div class="text-center">
-             <a href="/Admin/Requests/Edit/${data}" class='style='cursor:pointer;'><i class='fa fa-edit text-success'></i>Edit</a>
-           </div>`;
+                "render": function (data, type, full) {
+
+                    var isCancel = `${full.isCancel}`;
+                    if (isCancel === 'True') {
+
+
+
+                        return `<div style="color:red">Canceled</div>`
+
+                    }
+
+                    var status = `${full.status}`;
+
+                    if (status === 'Resolved') {
+                        return `<span><strong>Closed</strong></span>`;
+                    }
+                    else {
+                        return `<div class="text-center" id="editDiv">
+             <a href="/Admin/Requests/Edit/${full.id}" class='style='cursor:pointer;'><i class='fa fa-edit text-success'></i></a>
+            &nbsp<a class='btn text-danger style='cursor:pointer;font-size:14px' onclick=Cancel('/api/userrequest?id='+${full.id})><i class='fa fa-window-close text-danger'></i></a>
+               </div>`;
+                    }
+                }
+
+            },
+            {
+                "data": "isCancel", "render": function (data) {
+                   
+                    return `<div hidden>${data }</div>`
                 }
             }
 
@@ -88,7 +194,9 @@ function loadDataTable() {
         "language": {
             "emptyTable": "no data found"
         },
-        "width": "100%"
+        "width": "100%",
+
+    
     });
 
 }

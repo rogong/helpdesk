@@ -20,11 +20,11 @@
 
 
                 <li><a asp-area="admin" asp-controller="Home" asp-action="Index"><i class="fa fa-tachometer"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
-
+               
                 <li id="menu-academico">
-                    <a asp-area="Admin" asp-controller="Requests" asp-action="Index">
-                        <i class="fa fa-envelope nav_icon">
-                        </i><span>All Requests</span><div class="clearfix"></div>
+                    <a asp-area="admin" asp-controller="requests" asp-action="create">
+                        <i class="fa fa-plus nav_icon">
+                        </i><span>New Request</span><div class="clearfix"></div>
                     </a>
                 </li>
 
@@ -34,41 +34,33 @@
                         </i><span>Pending Requests</span><div class="clearfix"></div>
                     </a>
                 </li>
+                <li id="menu-academico">
+                    <a asp-area="Admin" asp-controller="Requests" asp-action="Index">
+                        <i class="fa fa-envelope nav_icon">
+                        </i><span>All Requests</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+
+
 
 
                 <li id="menu-academico">
-                    <a asp-area="admin" asp-controller="Calls" asp-action="Index">
-                        <i class="fa fa-phone nav_icon">
-                        </i><span>Calls</span><div class="clearfix"></div>
-                    </a>
+                    <a asp-area="admin" asp-controller="requestreports" asp-action="index"><i class="fa fa-list-ul" aria-hidden="true"></i><span> Reports</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
+                    <ul id="menu-academico-sub">
+                        <li id="menu-academico-avaliacoes">
+                            <a asp-area="admin" asp-controller="requestreports" asp-action="reportwithoutdepartment">Report by daternge</a>
+                        </li>
+                        <li id="menu-academico-avaliacoes">
+                            <a asp-area="admin" asp-controller="requestreports" asp-action="Index">Report by department</a>
+                        </li>
+                        <li id="menu-academico-avaliacoes">
+                            <a asp-area="admin" asp-controller="requestreports" asp-action="byuser">Report by user</a>
+                        </li>
+                        <li id="menu-academico-avaliacoes">  <a asp-area="admin" asp-controller="requestreports" asp-action="category">Report by category</a></li>
+                        <li id="menu-academico-avaliacoes">  <a asp-area="admin" asp-controller="requestreports" asp-action="piechartreport">View Report</a></li>
+                    </ul>
                 </li>
-
-                <li>
-                    <a asp-area="Admin" asp-controller="Departments" asp-action="Index">
-                        <i class="fa fa-level-down" aria-hidden="true">
-                        </i><span>Departments</span><div class="clearfix"></div>
-                    </a>
-                </li>
-
-                <li>
-                    <a asp-area="Admin" asp-controller="Devices" asp-action="Index">
-                        <i class="fa fa-laptop" aria-hidden="true">
-                        </i><span>Devices</span><div class="clearfix"></div>
-                    </a>
-                </li>
-                <li>
-                    <a asp-area="Admin" asp-controller="Status" asp-action="Index">
-                        <i class="fa fa-info" aria-hidden="true">
-                        </i><span>Status</span><div class="clearfix"></div>
-                    </a>
-                </li>
-                <li>
-                    <a asp-area="Admin" asp-controller="Account" asp-action="ChangeUserPassword">
-                        <i class="fa fa-key" aria-hidden="true">
-                        </i><span>Reset User Password</span><div class="clearfix"></div>
-                    </a>
-                </li>
-
                 <li id="menu-academico">
                     <a asp-area="admin" asp-controller="user" asp-action="ListUser"><i class="fa fa-list-ul" aria-hidden="true"></i><span> KPIs</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
                     <ul id="menu-academico-sub">
@@ -89,20 +81,40 @@
                         <li id="menu-academico-avaliacoes">  <a asp-area="admin" asp-controller="ITStaffs" asp-action="Index">IT Staff</a></li>
                     </ul>
                 </li>
+                <li>
+                    <a asp-area="Admin" asp-controller="Devices" asp-action="Index">
+                        <i class="fa fa-laptop" aria-hidden="true">
+                        </i><span>Devices</span><div class="clearfix"></div>
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="Admin" asp-controller="Status" asp-action="Index">
+                        <i class="fa fa-info" aria-hidden="true">
+                        </i><span>Status</span><div class="clearfix"></div>
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="Admin" asp-controller="Account" asp-action="ChangeUserPassword">
+                        <i class="fa fa-key" aria-hidden="true">
+                        </i><span>Reset User Password</span><div class="clearfix"></div>
+                    </a>
+                </li>
 
                 <li id="menu-academico">
-                    <a asp-area="admin" asp-controller="requestreports" asp-action="index"><i class="fa fa-list-ul" aria-hidden="true"></i><span> Reports</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
-                    <ul id="menu-academico-sub">
-                        <li id="menu-academico-avaliacoes">
-                            <a asp-area="admin" asp-controller="requestreports" asp-action="reportwithoutdepartment">Report by daternge</a>
-                        </li>
-                        <li id="menu-academico-avaliacoes">
-                            <a asp-area="admin" asp-controller="requestreports" asp-action="Index">Report by department</a>
-                        </li>
-                        <li id="menu-academico-avaliacoes">  <a asp-area="admin" asp-controller="requestreports" asp-action="category">Report by category</a></li>
-                        <li id="menu-academico-avaliacoes">  <a asp-area="admin" asp-controller="requestreports" asp-action="piechartreport">PieChart Report</a></li>
-                    </ul>
+                    <a asp-area="admin" asp-controller="Calls" asp-action="Index">
+                        <i class="fa fa-phone nav_icon">
+                        </i><span>Calls</span><div class="clearfix"></div>
+                    </a>
                 </li>
+
+                <li>
+                    <a asp-area="Admin" asp-controller="Departments" asp-action="Index">
+                        <i class="fa fa-level-down" aria-hidden="true">
+                        </i><span>Departments</span><div class="clearfix"></div>
+                    </a>
+                </li>
+
+
 
             }
 

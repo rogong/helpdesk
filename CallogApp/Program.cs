@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using CallogApp.Data;
@@ -23,21 +24,15 @@ namespace CallogApp
 
             var host = CreateHostBuilder(args).Build();
 
-
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-                var context = services.GetRequiredService<ApplicationDbContext>();
-                //var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
-                //var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
                 try
                 {
-
-
-
+                    var context = services.GetRequiredService<ApplicationDbContext>();
+                    //var userManager = services.GetRequiredService<UserManager<AppUser>>();
                     context.Database.Migrate();
-                    //Seed.SeedData(context, userManager, roleManager).Wait();
-                    //Seed.SeedData(context).Wait();
+                    //Seed.SeedData(context, userManager).Wait();
                 }
                 catch (Exception ex)
                 {
@@ -49,13 +44,13 @@ namespace CallogApp
             host.Run();
         }
 
-        public static IWebHostBuilder CreateHostBuilder(string[] args) =>
-            //Host.CreateDefaultBuilder(args)
-            //    .ConfigureWebHostDefaults(webBuilder =>
-            //    {
-            //        webBuilder.UseStartup<Startup>();
-            //    });
-            WebHost.CreateDefaultBuilder(args).UseStartup<Startup>();
-
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+      }
     }
-}
+    
+

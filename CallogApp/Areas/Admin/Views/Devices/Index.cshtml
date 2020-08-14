@@ -19,9 +19,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Description)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Quantity)
-            </th>
+            </th>*@
             <th></th>
         </tr>
     </thead>
@@ -34,13 +34,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.Quantity)
-            </td>
+            </td>*@
            
-            <td>
+            @*<td>
                 <partial name="_TableButtonPartial" model="@item.Id" />
-            </td>
+            </td>*@
         </tr>
 }
     </tbody>

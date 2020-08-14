@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
 <head>
 
@@ -19,13 +18,11 @@
     <link href="~/css/font-awesome.css" rel="stylesheet">
 
     <!-- //jQuery -->
-    @*<link href='https://fonts.googleapis.com/css?family=Roboto:700,500,300,100italic,100,400' rel='stylesheet' type='text/css' />
-    <link href='https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:400,700' rel='stylesheet' type='text/css'>*@
     <!-- lined-icons -->
     <link rel="stylesheet" href="~/css/icon-font.min.css" type='text/css' />
     <!-- //lined-icons -->
     <!-- tables -->
-    @*<link rel="stylesheet" type="text/css" class="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />*@
+
     <link rel="stylesheet" type="text/css" href="~/css/table-style.css" />
     <link rel="stylesheet" type="text/css" href="~/css/basictable.css" />
 
@@ -36,7 +33,9 @@
             background-color: white;
             /*box-shadow: 5px 5px 5px 5px #aaaaaa;*/
         }
-
+        .ck-editor__editable_inline {
+    min-height: 200px !important;
+}
         .m-10 {
             margin: 10px;
         }
@@ -68,7 +67,22 @@
                 @RenderBody()
 
                 <partial name="~/Views/Shared/_AdminSideBar.cshtml" />
-                <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+                <script src="~/js/jquery-3.3.1.js"></script>
+                <div class="modal" tabindex="-1" role="dialog" id="form-modal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <script type="text/javascript">
                     $(document).ready(function () {
                         //$('#table').basictable();
@@ -215,6 +229,8 @@
         });
     </script>
     <!-- jQuery -->
+
+   
 
     @RenderSection("Scripts", required: false)
 </body>

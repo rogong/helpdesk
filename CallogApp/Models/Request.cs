@@ -22,7 +22,9 @@ namespace CallogApp.Models
         [Required]
         [DisplayName("Created At")]
         public DateTime DateCreated { get; set; }
-      
+        [DisplayName("Date Resolved")]
+        public string DateResolved { get; set; }
+
         [DisplayName("Response Time")]
         public TimeSpan ResponseDate { get; set; }
 
@@ -69,7 +71,7 @@ namespace CallogApp.Models
         public string DepartmentOwner  { get; set; }
 
         public int LevelId { get; set; }
-        [DisplayName("Level")]
+        [DisplayName("Priority")]
         public virtual Level Level { get; set; }
         public Boolean isCancel { get; set; }
 
@@ -79,6 +81,17 @@ namespace CallogApp.Models
         public string ReasonForHigh { get; set; }
 
 
+        public int step { get; set; }
+
+        public string OtherIssue { get; set; }
+
+        public string OtherDevice { get; set; }
+
+        public string ResponseInterval { get; set; }
+
+        public string ResolutionInterval { get; set; }
+
+        public string PhotoUrl { get; set; }
 
 
     }

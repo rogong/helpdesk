@@ -3,10 +3,13 @@ using CallogApp.Models;
 using CallogApp.Utility;
 using CallogApp.Utility.Mail;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -17,10 +20,13 @@ namespace CallogApp.Areas.Admin.Controllers
     public class RequestsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private IWebHostEnvironment _hostingEnv;
 
-        public RequestsController(ApplicationDbContext context)
+
+        public RequestsController(IWebHostEnvironment env, ApplicationDbContext context)
         {
             _context = context;
+            _hostingEnv = env;
         }
 
         // GET: Admin/Requests
@@ -76,14 +82,22 @@ namespace CallogApp.Areas.Admin.Controllers
 
             ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name");
             ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name");
-           
-            ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name");
-            ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name");
+
             ViewBag.DateCreated = DateTime.Now;
             ViewBag.UpdatedAt = DateTime.Now;
-            ViewBag.ResponseDate = null;
+            ViewBag.ResponseDate = "";
+            ViewBag.RespondedDate = null;
+            ViewBag.ResolvedDate = "";
+            ViewBag.DateResolved = null;
+            ViewBag.ReasonForHigh = "";
             ViewBag.LevelId = 3;
             ViewBag.UserId = User.Identity.Name;
+            ViewBag.ITStaffId = 7;
+            ViewBag.StatusId = 1;
+            ViewBag.isCancel = false;
+            ViewBag.step = 0;
+            //ViewBag.OtherDevice = null;
+            //ViewBag.OtherIssue = null;
             ViewBag.DepartmentId = user.DepartmentId;
             TempData["Message"] = "Request sent successfully";
             return View();
@@ -94,31 +108,109 @@ namespace CallogApp.Areas.Admin.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,StatusId,LevelId,UserId,DateCreated,UpdatedAt,ResponseDate,DepartmentId,IssueId,DeviceId,Subject,Message,ResolvedBy,Resolution,ITStaffId")] Request request)
+        public async Task<IActionResult> Create([Bind("Id,StatusId,LevelId,isCancel,UserId,DateCreated,ResponseDate,RespondedDate," +
+            "OtherIssue,OtherDevice,ResolvedDate,DepartmentId,IssueId,DeviceId,Subject,Message,ITStaffId,DepartmentOwner,ReasonForHigh,DateResolved,step,PhotoUrl")] 
+          Request request, IFormFile file, string returnUrl = null)
         {
-            try
+
+            // Admin
+            var ITEmail = "it@superfluxnigeria.com";
+            var departmemt = await _context.Departments.FindAsync(request.DepartmentId);
+            var status = await _context.Departments.FindAsync(request.StatusId);
+
+            //User S
+            var userEmail = User.Identity.Name;
+            var subject = "Request Received";
+            var message = $"Your request " + $" ''" + $"{request.Subject}" + $"''" + " was received, we will get back to you shortly";
+
+            returnUrl = returnUrl ?? Url.Content("~/");
+
+            if (request.DeviceId == 1)
             {
-                if (ModelState.IsValid)
+                ViewBag.reasonMessage = "Select a valid device";
+                // ModelState.AddModelError("progressMessage", "You must change the status");
+
+                ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
+                ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
+                ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
+                return View(request);
+
+
+            }
+            if (request.IssueId == 1)
+            {
+                ViewBag.reasonMessage = "Select a valid category";
+                // ModelState.AddModelError("progressMessage", "You must change the status");
+
+                ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
+                ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
+                ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
+                return View(request);
+
+
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
                 {
+
+                    if (request.IssueId == 15)
+                    {
+                        request.LevelId = 1;
+                    }
+
+                    //Upload data
+                    if (file != null)
+                    {
+                        var fileName = DateTime.Now.ToString("yyyyMMddHHmmss") + file.FileName;
+                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), _hostingEnv.WebRootPath, "uploads", fileName);
+                        //var stream = new FileStream(path, FileMode.Create);
+                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await file.CopyToAsync(stream);
+                        }
+
+                        var WebUrl = $"{this.Request.Scheme}://{this.Request.Host}/uploads/";
+
+                        request.PhotoUrl = WebUrl + fileName;
+                    }
+
                     _context.Add(request);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
+                    //user
+                 SendMail.send(message, userEmail, subject);
+                    //IT
+                  
+                    //  Decalre variable
+                    var adminMessage =
+                $"<img src='http://superfluxnigeria.com/images/logo.png' />" +
+                $"<h4 style='background:pink'>Support Ticket with Id number {request.Id}{request.Status}{Environment.NewLine} was created</h4>" +
+               
+                $"Subject: {request.Subject} {Environment.NewLine}<br />" +
+                $"User: {request.UserId} {Environment.NewLine}<br />" +
+                $"Department: {departmemt.Name} {Environment.NewLine}<br />" +
+                $"Description: {request.Message} {Environment.NewLine}";
+               SendMail.send(adminMessage + " " + $"{this.Request.Scheme}://{this.Request.Host}/Admin/Requests/Details/{request.Id}", ITEmail, subject);
+                    return RedirectToAction(nameof(Success));
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.progressMessage2 = $"Mail could not be sent,Check your network connection." +
+                          "Check your dashboard before sending another request because your request might have been sent.";
+                    return View(request);
                 }
             }
-            catch(Exception ex)
-            {
-                throw ex;
-            }
-           
-            
-         
+
+            ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
             ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
             ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
-            
-            ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name", request.StatusId);
-            ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
+
+
+
             return View(request);
         }
+
 
         // GET: Admin/Requests/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -149,7 +241,7 @@ namespace CallogApp.Areas.Admin.Controllers
             ViewData["LevelId"] = new SelectList(_context.Levels, "Id", "Name", request.LevelId);
             ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name", request.StatusId);
             ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
-            
+
             return View(request);
         }
 
@@ -158,7 +250,7 @@ namespace CallogApp.Areas.Admin.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,StatusId,LevelId,UserId,DateCreated,DepartmentId,RespondedDate,ResponseDate,ResolvedDate,IssueId,DeviceId,Subject,Message,ITStaffId,ResolvedBy,Resolution,ReasonForHigh")] Request request)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,StatusId,LevelId,UserId,DateCreated,DepartmentId,RespondedDate,ResponseDate,ResolvedDate,ResponseInterval,ResolutionInterval,IssueId,DeviceId,Subject,Message,ITStaffId,ResolvedBy,Resolution,ReasonForHigh,step,OtherIssue,OtherDevice,PhotoUrl")] Request request)
         {
 
             var ITEmail = "it@superfluxnigeria.com";
@@ -187,13 +279,63 @@ namespace CallogApp.Areas.Admin.Controllers
 
             if (ModelState.IsValid)
             {
-               
+
+                //request.step = Convert.ToInt32(request.step);
+
                 var staffId = request.ITStaffId;
 
-                if (request.LevelId == 1 && request.StatusId == 1  && request.ReasonForHigh == null)
+                if (request.ITStaffId != 7 && request.step == 0)
                 {
-                    ViewBag.reasonMessage = "Your must give the reason";
-                    // ModelState.AddModelError("progressMessage", "You must change the status");
+                    request.step = 1;
+                    _context.Update(request);
+
+                    await _context.SaveChangesAsync();
+
+
+                    if (User.IsInRole(SD.SuperAdminUser))
+                    {
+                        return RedirectToAction(nameof(Index));
+                    }
+                    else
+                    {
+                        return RedirectToAction("MyAssignedTask", "Requests", new { Area = "Admin" });
+                    }
+
+                }
+                else if (request.ITStaffId == 7 && request.step == 0)
+                {
+
+                    ViewBag.reasonMessage = "You must assign task to a person!";
+
+                    ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
+                    ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
+                    ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
+                    ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
+                    ViewData["LevelId"] = new SelectList(_context.Levels, "Id", "Name", request.LevelId);
+                    ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name", request.StatusId);
+                    return View(request);
+                }           
+
+                else if (request.LevelId == 1 && request.ReasonForHigh == null && request.ITStaffId != 7 && request.step == 1)
+                {
+                    ViewBag.reasonMessage = "You must give the reason";
+                    
+                    ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
+                    ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
+                    ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
+                    ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
+                    ViewData["LevelId"] = new SelectList(_context.Levels, "Id", "Name", request.LevelId);
+                    ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name", request.StatusId);
+                    return View(request);
+
+
+                }
+
+
+
+                else if (request.LevelId != 1 && request.ReasonForHigh == null && request.StatusId == 1 && request.step == 1)
+                {
+                    ViewBag.reasonMessage = "Choose a the right status";
                    
                     ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
                     ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
@@ -206,13 +348,10 @@ namespace CallogApp.Areas.Admin.Controllers
 
                 }
 
-               
-
-                else if (request.LevelId == 1 && request.StatusId == 1 && request.ReasonForHigh != null )
+                else if (request.LevelId == 1 && request.StatusId == 1 && request.ReasonForHigh != null && request.ITStaffId != 7 && request.step == 1)
                 {
-                    ViewBag.progressMessage = "You must change the status and assign";
-                    // ModelState.AddModelError("progressMessage", "You must change the status");
-                 
+                    ViewBag.progressMessage = "You must change the status";
+                   
                     ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
                     ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
                     ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
@@ -223,58 +362,114 @@ namespace CallogApp.Areas.Admin.Controllers
 
 
                 }
-                //else if (request.LevelId == 1 && request.StatusId != 1 && request.ReasonForHigh != null)
-                //{
-                //    ViewBag.progressMessage = "You must change the status";
-                //    // ModelState.AddModelError("progressMessage", "You must change the status");
 
-                //    ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
-                //    ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
-                //    ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
-                //    ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
-                //    ViewData["LevelId"] = new SelectList(_context.Levels, "Id", "Name", request.LevelId);
-                //    ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name", request.StatusId);
-                //    return View(request);
+                else if (request.step == 2 && request.StatusId != 1 && request.ResolvedBy == null)
+                {
+                    ViewBag.reasonMessage = "Resolved by is required!";
 
-
-                //}
+                    ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
+                    ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
+                    ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
+                    ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
+                    ViewData["LevelId"] = new SelectList(_context.Levels, "Id", "Name", request.LevelId);
+                    ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name", request.StatusId);
+                    return View(request);
 
 
+                }
+                else if (request.step == 2 && request.StatusId != 1 && request.Resolution == null)
+                {
+                    ViewBag.reasonMessage = "Resolution is required!";
+
+                    ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
+                    ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
+                    ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
+                    ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
+                    ViewData["LevelId"] = new SelectList(_context.Levels, "Id", "Name", request.LevelId);
+                    ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name", request.StatusId);
+                    return View(request);
+
+
+                }
+
+                else if (request.step == 2 && request.StatusId != 3)
+                {
+                    ViewBag.reasonMessage = "Choose the right status(Resolved)";
+
+                    ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
+                    ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
+                    ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
+                    ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
+                    ViewData["LevelId"] = new SelectList(_context.Levels, "Id", "Name", request.LevelId);
+                    ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name", request.StatusId);
+                    return View(request);
+
+
+                }
+
+                else
+                {
+                    request.step = 2;
+                }
 
                 try
                 {
-                    if (request.LevelId == 1 && request.ReasonForHigh != "")
-                    {
 
-                        SendMail.send(request.ReasonForHigh, userEmail, subject);
+
+                    if (request.LevelId == 1 && request.ReasonForHigh == null && request.ITStaffId != 7 && request.step == 1)
+                    {
+                        ViewBag.reasonMessage = "Your must give the reason";
+
+                        ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", request.DepartmentId);
+                        ViewData["DeviceId"] = new SelectList(_context.Devices, "Id", "Name", request.DeviceId);
+                        ViewData["ITStaffId"] = new SelectList(_context.ITStaffs, "Id", "Name", request.ITStaffId);
+                        ViewData["IssueId"] = new SelectList(_context.Issues, "Id", "Name", request.IssueId);
+                        ViewData["LevelId"] = new SelectList(_context.Levels, "Id", "Name", request.LevelId);
+                        ViewData["StatusId"] = new SelectList(_context.Statuses, "Id", "Name", request.StatusId);
+                        return View(request);
 
 
                     }
-                    if(request.LevelId == 1 && request.ReasonForHigh == "")
+                    else
                     {
-                        ModelState.AddModelError("progressMessage", "Resason must not be empty.");
+                        if (request.LevelId == 1 && request.ReasonForHigh != null)
+                        {
 
-                        return RedirectToAction(nameof(Edit));
+                            SendMail.send(request.ReasonForHigh, userEmail, subject);
 
+                            request.step = 2;
+                            _context.Update(request);
+
+                            await _context.SaveChangesAsync();
+
+                        }
+                       
                     }
                 }
                 catch (Exception ex)
                 {
-
+                    ViewBag.progressMessage = $"Mail could not be sent,Check your network connection." +
+                        "Check your dashboard before sending another request because your request might have been sent.";
+                    return View();
                 }
 
 
-                if (request.RespondedDate == null && request.StatusId == 2)
-                 {
+                //if (request.RespondedDate == null && request.StatusId == 2)
+                if (request.ResponseInterval == null && request.StatusId == 2)
+                    {
                                      
                         request.RespondedDate = DateTime.Now.ToString();
 
                         TimeSpan responseTime = Convert.ToDateTime(request.RespondedDate) - request.DateCreated;
 
-                    TimeSpan sestT = new TimeSpan(responseTime.Hours, responseTime.Minutes, responseTime.Milliseconds);
+                       
+                       TimeSpan sestT = new TimeSpan(responseTime.Hours, responseTime.Minutes, responseTime.Milliseconds);
+                       TimeSpan sestTInterval = new TimeSpan(responseTime.Days, responseTime.Hours, responseTime.Minutes, responseTime.Milliseconds);
 
+                    request.ResponseDate = sestT;
+                    var interval = sestTInterval.ToString();
+                    request.ResponseInterval = interval;
 
-                        request.ResponseDate = sestT;
                     try
                     {                     
                             SendMail.send(message, userEmail, subject);
@@ -286,23 +481,33 @@ namespace CallogApp.Areas.Admin.Controllers
                     }
 
                  }
-
-                    if (request.StatusId == 3 && (request.ResolvedDate == null || request.ResolvedDate == TimeSpan.Parse("00:00:00") ))
+                //Check resolution, status id
+                    if (request.StatusId == 3 && (request.ResolutionInterval == null || request.ResolutionInterval == null ))
                     {
 
                         TimeSpan resolvedTime = Convert.ToDateTime(DateTime.Now.ToString()) - request.DateCreated;
 
-                            TimeSpan sestT = new TimeSpan(resolvedTime.Hours, resolvedTime.Minutes, resolvedTime.Milliseconds);
-                    request.ResolvedDate = sestT;
+                        TimeSpan sestT = new TimeSpan(resolvedTime.Hours, resolvedTime.Minutes, resolvedTime.Milliseconds);
+                        TimeSpan sestInterval = new TimeSpan(resolvedTime.Days, resolvedTime.Hours, resolvedTime.Minutes, resolvedTime.Milliseconds);
+
+                         request.ResolvedDate = sestT;
+
+                      /// Interval 
+                        var interval = sestInterval.ToString();
+
+                    request.ResolutionInterval = interval;
+                        request.DateResolved = Convert.ToString(DateTime.Now);
                     try
                     {
-                        //User                     
+                        //Send mail to User                     
                         SendMail.send(resolveMessage, ITEmail, subject);
 
                     }
                     catch (Exception ex)
                     {
-
+                        ViewBag.progressMessage2 = $"Mail could not be sent,Check your network connection." +
+                          "Check your dashboard before sending another request because your request might have been sent.";
+                        return View();
                     }
                     
 
@@ -315,7 +520,7 @@ namespace CallogApp.Areas.Admin.Controllers
 
                
                 
-
+                // check the role
                 if(User.IsInRole(SD.SuperAdminUser))
                 {
                     return RedirectToAction(nameof(Index));
@@ -376,9 +581,18 @@ namespace CallogApp.Areas.Admin.Controllers
             return _context.Requests.Any(e => e.Id == id);
         }
 
+        // Pending view
         public IActionResult PendingRequest()
         {
             return View();
         }
+
+        //Success View
+        public IActionResult Success()
+        {
+            return View();
+        }
+
+     
     }
 }

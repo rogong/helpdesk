@@ -1,14 +1,20 @@
 ﻿var dataTable;
 
 function format(d) {
+    if (d.photoUrl !== null) {
 
-    return  d.message;
+        return "<strong>Description:</strong>" + "" + d.message + "<br/>"
+            + "<h5><strong>Photo:</strong>" + '<a target=" _blank" href="' + d.photoUrl + '"> View attachment</a>';
 
+    }
+    else {
+        return "<h5><strong>Description:</strong>" + "" + d.message + '</h5>'
+        
+    }
 }
 
 $(document).ready(function () {
     loadDataTable();
-
     var detailRows = [];
 
     $('#DT_load tbody').on('click', 'tr td.details-control', function () {
@@ -64,6 +70,7 @@ function loadDataTable() {
                 "data": null,
                 "defaultContent": '<i class = "glyphicon glyphicon-plus-sign bg-success text-white"> </i>',
             },
+            { "data": "id" },
             {
                 "render": function (data, type, full) {
 
@@ -78,11 +85,42 @@ function loadDataTable() {
                 }
                 //"data": "status", "width": "20%"
             },
-            { "data": "dateCreated", "width": "20%" },
-            { "data": "issue", "width": "20%" },
-            { "data": "device", "width": "20%" },
-            { "data": "subject", "width": "20%" },
-            { "data": "itStaff", "width": "20%" },
+            { "data": "dateCreated"},
+            //{ "data": "issue", "width": "20%" },
+            {
+                "render": function (data, type, full) {
+
+                    var isIssue = `${full.issue}`;
+                    if (isIssue === 'OTHER') {
+
+                        return `<div>${full.otherIssue}</div>`
+
+                    }
+                    else {
+                        return `<div>${full.issue}</div>`
+                    }
+                }
+              
+            },
+            //{ "data": "device" },
+            {
+                "render": function (data, type, full) {
+
+                    var device = `${full.device}`;
+                    if (device === 'Other') {
+
+                        return `<div">${full.otherDevice}</div>`
+
+                    }
+                    else {
+                        return `<div">${full.device}</div>`
+                    }
+                }
+             
+            },
+            { "data": "subject" },
+            { "data": "dateResolved" },
+            { "data": "itStaff"},
             {
                 "render": function (data, type, full) {
 
@@ -95,22 +133,25 @@ function loadDataTable() {
                     var status = `${full.status}`;
 
                     if (status === 'Resolved') {
-                        return `<span><strong>Closed</strong></span>`;
+                        //Closed Button and Modal Form
+                        return `<span><strong>Closed</strong></span><br />
+ <a href="/User/UserComment/Create/${full.id}"  class='style='cursor:pointer;'><i class='fa fa-plus text-success'>Create comment</i></a>
+<a href="/User/UserComment/GetAllCommentsByRequest/${full.id}"  class='style='cursor:pointer;'><i class='fa fa-eye text-primary'>View comment</i></a>
+`;
                     }
                     else {
                         return `<div class="text-center" id="editDiv">
-             <a href="/User/UserRequest/Edit/${full.id}" class='style='cursor:pointer;'><i class='fa fa-edit text-success'></i></a>
-            &nbsp<a class='btn text-danger style='cursor:pointer;font-size:14px' onclick=Cancel('/api/userrequest?id='+${full.id})><i class='fa fa-window-close text-danger'></i></a>
+             <a href="/User/UserRequest/Edit/${full.id}" class='style='cursor:pointer;'><i class='fa fa-edit text-success'>edit</i></a>
+            &nbsp<a class='btn text-danger style='cursor:pointer;font-size:14px' onclick=Cancel('/api/userrequest?id='+${full.id})><i class='fa fa-window-close text-danger'>cancel</i></a>
                </div>`;
-                    }
-             
-                
-                }, "width": "40%"
+                    }               
+                }
             },
             {
                 "data": "isCancel", "render": function (data, type, row) {
                     return `<div id="isCancel" hidden>${data}</div>`
                 }
+               
             }
             
         ],
@@ -121,6 +162,7 @@ function loadDataTable() {
     });
 
 }
+
 
 function Cancel(url) {
     swal({
@@ -149,3 +191,4 @@ function Cancel(url) {
 
   
 }
+

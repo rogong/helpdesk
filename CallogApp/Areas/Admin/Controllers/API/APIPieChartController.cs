@@ -128,7 +128,7 @@ namespace CallogApp.Areas.Admin.Controllers.API
         {
 
             var krCount = await _context.Requests
-                  .Where(r => r.Issue.Name == "KRs Template Issue")
+                  .Where(r => r.Issue.Name == "KR Machine  Issue")
                   .Where(r => r.DateCreated.Date >= startDate.Date && r.DateCreated.Date <= endDate.Date)
                   .CountAsync();
 

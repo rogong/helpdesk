@@ -101,7 +101,19 @@ function loadDataTable() {
                 "data": null,
                 "defaultContent": '<i class = "glyphicon glyphicon-plus-sign bg-success text-white"> </i>',
             },
-            { "data": "status" },
+            {
+                "render": function (data, type, full) {
+
+                    var status = `${full.status}`;
+
+                    if (status === 'Resolved') {
+                        return `<div style="color:green" class="fa fa-check"><strong>${status}</strong></div>`;
+                    }
+
+                    return `<div style="color:red" class="fa fa-circle">${status}</div>`;
+                }
+                //"data": "status", "width": "20%"
+            },
             { "data": "dateCreated"},
             { "data": "issue" },
             { "data": "device"},

@@ -68,6 +68,29 @@ namespace CallogApp.Areas.Admin.Controllers
         }
 
 
+        [HttpGet("user")]
+        public async Task<ActionResult<IReadOnlyList<RequestToReturnDto>>> ByUser(DateTime startDate, DateTime endDate, string user)
+        {
+
+
+            var requests = await _context.Requests
+                         .Include(r => r.Device)
+                         .Include(r => r.Issue)
+                         .Include(r => r.Department)
+                         .Include(r => r.Status)
+                         .Include(r => r.ITStaff)
+                         .Where(r => r.DateCreated.Date >= startDate.Date && r.DateCreated.Date <= endDate.Date)
+                         .Where(r => r.UserId == user)
+                         .OrderByDescending(r => r.DateCreated)
+                         .ToListAsync();
+
+
+            var dataDto = _mapper.Map<IReadOnlyList<Request>, IReadOnlyList<RequestToReturnDto>>(requests);
+            //return Ok(new { data = dataDto });
+            return Ok(dataDto);
+        }
+
+
         [HttpGet("daterange")]
         public async Task<ActionResult<IReadOnlyList<RequestToReturnDto>>> ReportWithoutDepartment(DateTime startDate, DateTime endDate)
         {

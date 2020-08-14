@@ -45,5 +45,12 @@ namespace CallogApp.Areas.Admin.Controllers
             return View();
         }
 
+        public IActionResult ByUser()
+        {
+            ViewData["UserId"] = new SelectList(_context.ApplicationUsers, "Email", "Name");
+
+            return View();
+        }
+
     }
 }

@@ -27,32 +27,47 @@
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <p class="legend">Login Here<span class="fa fa-hand-o-down"></span></p>
                     <div class="input">
-                        <input type="email" placeholder="Email" asp-for="Input.Email" required />
+
+                        <input type="email" placeholder="Email" asp-for="Input.Email" />
                         <span class="fa fa-envelope"></span>
-                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+
                     </div>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
                     <div class="input">
-                        <input type="password" placeholder="Password" asp-for="Input.Password" required />
+
+                        <input type="password" placeholder="Password" asp-for="Input.Password" />
                         <span class="fa fa-unlock"></span>
-                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+
+                    </div>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+
+                    <div class="row" style="font-size:small">
+                        <div class="col-md-6">
+                            <label asp-for="Input.RememberMe">
+                                <input asp-for="Input.RememberMe" />
+                                @Html.DisplayNameFor(m => m.Input.RememberMe)
+                            </label>
+                        </div>
+                        <div class="col-md-6">
+                            <a id="forgot-password" asp-page="./ForgotPassword">Forgot Password?</a>
+                        </div>
                     </div>
 
-                    <label asp-for="Input.RememberMe">
-                        <input asp-for="Input.RememberMe" />
-                        @Html.DisplayNameFor(m => m.Input.RememberMe)
-                    </label>
+
+
 
                     <button type="submit" class="btn submit">
                         <span class="fa fa-sign-in"></span>
                     </button>
+                    <span>
+                        You don't have an account..?
+                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">
+                            Register
+                        </a>
+                    </span>
                 </form>
-                <span>
-                    You don't have an account..?
-                    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">
-                        Register
-                    </a>
-                </span>
-                <!--  <a id="forgot-password" asp-page="./ForgotPassword" class="bottom-text-w3ls">Forgot Password?</a> -->
+                
+                  
             </div>
         </div>
         <!-- //content -->
